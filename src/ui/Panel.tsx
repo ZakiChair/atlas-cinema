@@ -1,11 +1,12 @@
 import { useEffect, type ReactNode } from 'react';
 import { useIsDesktop } from './useIsDesktop';
 import { X, ArrowRight, ArrowLeft, ArrowLeftRight } from 'lucide-react';
-import { LINKS, MOVEMENTS, MOVEMENT_BY_ID, SOURCE_BY_ID, REGIONS } from '../data';
+import { LINKS, MOVEMENTS, MOVEMENT_BY_ID, SOURCE_BY_ID, REGIONS, FILM_EXTRAS } from '../data';
 import type { Filmmaker, Movement, Source, Style, Film } from '../data/types';
 import { useStore, type Selection } from '../state/store';
 import { formatPeriod } from '../map/Territory';
 import { StatementList } from './Statement';
+import { FilmCard, Poster } from './FilmCard';
 import { Breadcrumb } from './Breadcrumb';
 import { Sheet } from './Sheet';
 import { resolveSelection, sourceOrderFor, type Resolved } from './resolve';
@@ -121,14 +122,7 @@ function MovementView({ m, nav }: { m: Movement; nav: Nav }) {
         <ul className="space-y-2">
           {m.films.map((f) => (
             <li key={f.id}>
-              <button className="w-full text-left glass p-3 hover:border-white/30 transition" onClick={() => nav({ kind: 'film', id: f.id })}>
-                <div className="text-sm font-medium">
-                  {f.title} <span className="text-[#a39c8c]">({f.year})</span>
-                </div>
-                {f.originalTitle && <div className="text-xs italic text-[#a39c8c]">{f.originalTitle}</div>}
-                <div className="text-xs text-[#a39c8c]">{f.director} · {f.country}</div>
-                <p className="text-xs text-[#cfc8b8] mt-1">{f.comment}</p>
-              </button>
+              <FilmCard film={f} onClick={() => nav({ kind: 'film', id: f.id })} />
             </li>
           ))}
         </ul>
@@ -288,36 +282,61 @@ function FilmView({ f, r, nav }: { f: Film; r: Resolved; nav: Nav }) {
   const director = f.filmmakerId ? m.filmmakers.find((x) => x.id === f.filmmakerId) : undefined;
   const style = f.styleId ? m.styles.find((s) => s.id === f.styleId) : undefined;
   const also = m.films.filter((x) => x.id !== f.id && (f.styleId ? x.styleId === f.styleId : true)).slice(0, 3);
+  const extra = FILM_EXTRAS[f.id];
   return (
     <>
-      <h2 className="font-serif text-2xl">{f.title}</h2>
-      {f.originalTitle && <p className="font-serif italic text-[#a39c8c]">{f.originalTitle}</p>}
-      <p className="text-sm text-[#a39c8c] mt-1">
-        {f.year} ·{' '}
-        {director ? (
-          <button className="text-[#e8d9a8] hover:underline" onClick={() => nav({ kind: 'filmmaker', id: director.id })}>
-            {f.director}
-          </button>
-        ) : (
-          f.director
-        )}{' '}
-        · {f.country}
-      </p>
-      {style && (
-        <p className="text-sm">
-          Style :{' '}
-          <button className="text-[#e8d9a8] hover:underline" onClick={() => nav({ kind: 'style', id: style.id })}>
-            {style.name}
-          </button>
-        </p>
+      <div className="flex gap-4 items-start">
+        {extra?.poster && (
+          <Poster film={f} className="w-28 shrink-0 rounded-md bg-white/5 shadow-lg" />
+        )}
+        <div className="min-w-0">
+          <h2 className="font-serif text-2xl leading-tight">{f.title}</h2>
+          {f.originalTitle && <p className="font-serif italic text-[#a39c8c]">{f.originalTitle}</p>}
+          <p className="text-sm text-[#a39c8c] mt-1">
+            {f.year} ·{' '}
+            {director ? (
+              <button className="text-[#e8d9a8] hover:underline" onClick={() => nav({ kind: 'filmmaker', id: director.id })}>
+                {f.director}
+              </button>
+            ) : (
+              f.director
+            )}{' '}
+            · {f.country}
+          </p>
+          {extra?.cast && extra.cast.length > 0 && (
+            <p className="text-xs text-[#8b8574] mt-1">avec {extra.cast.join(', ')}</p>
+          )}
+          {style && (
+            <p className="text-sm mt-1">
+              Style :{' '}
+              <button className="text-[#e8d9a8] hover:underline" onClick={() => nav({ kind: 'style', id: style.id })}>
+                {style.name}
+              </button>
+            </p>
+          )}
+        </div>
+      </div>
+      {extra?.synopsis && (
+        <Section title="Synopsis">
+          <p className="text-sm leading-relaxed text-[#cfc8b8]">{extra.synopsis}</p>
+        </Section>
       )}
-      <p className="text-sm mt-3 leading-relaxed">{f.comment}</p>
+      <Section title="Place dans le courant">
+        <p className="text-sm leading-relaxed">{f.comment}</p>
+      </Section>
       <p className="text-sm mt-2">
         Courant :{' '}
         <button className="text-[#e8d9a8] hover:underline" onClick={() => nav({ kind: 'movement', id: m.id })}>
           {m.name}
         </button>
       </p>
+      {extra?.wikiUrl && (
+        <p className="text-xs mt-2">
+          <a href={extra.wikiUrl} target="_blank" rel="noreferrer" className="text-[#8fd3ff] underline">
+            En savoir plus sur Wikipédia
+          </a>
+        </p>
+      )}
       {also.length > 0 && (
         <Section title="À voir aussi">
           <ul className="space-y-1">

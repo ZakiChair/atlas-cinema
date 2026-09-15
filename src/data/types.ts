@@ -125,8 +125,24 @@ export interface Film {
   filmmakerId?: string;
   styleId?: string;
   country: string;
-  /** Recommandation commentée : pourquoi le voir, quoi regarder. */
+  /** Recommandation commentée : pourquoi le voir, quoi regarder, place dans le courant. */
   comment: string;
+}
+
+/** Données externes d'un film, générées par scripts/enrich-films.ts (Wikidata / Wikipédia). */
+export interface FilmExtra {
+  /** URL de l'affiche (miniature Wikimedia ~400 px). */
+  poster?: string;
+  /** Acteurs principaux (Wikidata P161). */
+  cast?: string[];
+  /** Réalisateur(s) vérifié(s) (Wikidata P57). */
+  directors?: string[];
+  /** Résumé (introduction de l'article Wikipédia). */
+  synopsis?: string;
+  /** Article Wikipédia pour « en savoir plus ». */
+  wikiUrl?: string;
+  /** Identifiant Wikidata (traçabilité de la donnée). */
+  qid?: string;
 }
 
 export interface MapPlacement {

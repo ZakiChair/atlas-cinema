@@ -35,8 +35,10 @@ captures dans `e2e/artifacts/`).
 ## Corpus
 
 40 courants (ère du muet 6, âge classique 7, modernités 14, contemporain 12), 163 styles,
-424 cinéastes, 660 films commentés, 100 liens entre courants, environ 230 sources (livres,
-articles, manifestes, films).
+424 cinéastes, 795 films commentés, 100 liens entre courants, environ 230 sources (livres,
+articles, manifestes, films). Chaque film est enrichi par `scripts/enrich-films.ts` avec
+l'affiche, la distribution et un synopsis issus de Wikidata et Wikipédia (`src/data/filmExtras.ts`,
+généré — relancer `npx tsx scripts/enrich-films.ts --missing` après ajout de films).
 
 Les données vivent dans `src/data/` :
 
@@ -46,7 +48,9 @@ Les données vivent dans `src/data/` :
 - `sources.ts` — la bibliographie ; tout identifiant de source cité doit y exister ;
 - `eras.ts` — ères, bandes de régions et dimensions de l’espace carte ;
 - `validate.ts` — cohérence du corpus (identifiants, références croisées, périodes, sources),
-  exécutée par `src/data/__tests__/validate.test.ts`.
+  exécutée par `src/data/__tests__/validate.test.ts` ;
+- `filmExtras.ts` — données externes générées (affiches, distributions, synopsis, liens
+  Wikipédia), une entrée par `Film.id`.
 
 ### Faits et interprétations
 

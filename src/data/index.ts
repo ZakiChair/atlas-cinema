@@ -15,3 +15,5 @@ export const MOVEMENTS: Movement[] = [...MUET, ...CLASSIQUE, ...MODERNITES, ...C
 );
 
 export const MOVEMENT_BY_ID: Record<string, Movement> = Object.fromEntries(MOVEMENTS.map((m) => [m.id, m]));
+
+export { FILM_EXTRAS } from './filmExtras';
