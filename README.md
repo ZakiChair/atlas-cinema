@@ -39,8 +39,8 @@ captures dans `e2e/artifacts/`).
 ## Corpus
 
 44 courants (ère du muet 6, âge classique 7, modernités 14, contemporain 16 — dont l’École de
-Berlin, le cinéma européen, latino-américain et japonais contemporains), 186 styles,
-514 cinéastes, 934 films commentés, 110 liens entre courants, 129 liens entre cinéastes,
+Berlin, le cinéma européen, latino-américain et japonais contemporains), 188 styles,
+630 cinéastes, 1180 films commentés, 110 liens entre courants, 240 liens entre cinéastes,
 environ 300 sources (livres, articles, manifestes, films). Chaque film est enrichi par
 `scripts/enrich-films.ts` avec l'affiche, la distribution et un synopsis issus de Wikidata et
 Wikipédia (`src/data/filmExtras.ts`, généré — relancer `npx tsx scripts/enrich-films.ts --missing`
