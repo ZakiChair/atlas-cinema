@@ -10,14 +10,10 @@ import { FilmmakerLinkLayer } from './FilmmakerLinkLayer';
 import type { MapController, Bounds, ViewportInset } from './controller';
 import type { Filters, Selection } from '../state/store';
 import { movementOf } from './bounds';
-import { publishView } from './viewStore';
+import { LEVEL_K, levelFor, publishView } from './viewStore';
 
-/**
- * Seuils de niveau sémantique en zoom absolu (px écran par unité carte) : la
- * lisibilité des libellés dépend de la taille des territoires à l'écran, pas du
- * zoom d'ajustement (qui varie beaucoup entre desktop et mobile).
- */
-export const LEVEL_K = [0.36, 1.0, 1.8];
+export { LEVEL_K, levelFor };
+
 /** zooms absolus visés par les boutons de niveau (le niveau 0 = ajustement) */
 const LEVEL_TARGET_K = [0, 0.6, 1.36, 2.4];
 
@@ -32,13 +28,6 @@ interface Props {
   controllerRef: MutableRefObject<MapController | null>;
   onLevelChange: (level: number) => void;
   onReady: (controller: MapController) => void;
-}
-
-export function levelFor(k: number): number {
-  if (k < LEVEL_K[0]) return 0;
-  if (k < LEVEL_K[1]) return 1;
-  if (k < LEVEL_K[2]) return 2;
-  return 3;
 }
 
 export function MapCanvas({ layout, filters, dimmedIds, selection, relatedIds, onSelect, onLinkClick, controllerRef, onLevelChange, onReady }: Props) {
@@ -189,12 +178,15 @@ export function MapCanvas({ layout, filters, dimmedIds, selection, relatedIds, o
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [controllerRef]);
 
-  const handleSelect = (kind: Selection['kind'], id: string, _terr: TerritoryLayout) => {
-    // fly-to délégué à App : territoire au niveau 0 et tout enfant → vol ;
-    // territoire déjà zoomé (niveau ≥ 1) → sélection seule.
-    const fly = kind !== 'movement' || levelRef.current === 0;
-    onSelect({ kind, id }, fly);
-  };
+  const handleSelect = useCallback(
+    (kind: Selection['kind'], id: string, _terr: TerritoryLayout) => {
+      // fly-to délégué à App : territoire au niveau 0 et tout enfant → vol ;
+      // territoire déjà zoomé (niveau ≥ 1) → sélection seule.
+      const fly = kind !== 'movement' || levelRef.current === 0;
+      onSelect({ kind, id }, fly);
+    },
+    [onSelect],
+  );
 
   const selectedMovementId = selection ? movementOf(selection) : null;
   const selectedChildId = selection && selection.kind !== 'movement' ? selection.id : undefined;

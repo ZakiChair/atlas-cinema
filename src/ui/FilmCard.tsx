@@ -12,6 +12,7 @@ export function Poster({ film, className }: { film: Film; className?: string }) 
       src={src}
       alt={`Affiche de ${film.title}`}
       loading="lazy"
+      decoding="async"
       referrerPolicy="no-referrer"
       onError={() => setFailed(true)}
       className={className}

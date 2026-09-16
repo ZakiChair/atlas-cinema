@@ -1,6 +1,8 @@
-import { memo, type CSSProperties } from 'react';
+import { memo, useMemo, type CSSProperties } from 'react';
 import type { Movement, Period } from '../data/types';
 import { organicPath, type TerritoryLayout } from './layout';
+import { LITE } from './lite';
+import { levelFor, useViewTransform } from './viewStore';
 
 export function formatPeriod(p: Period | undefined): string {
   if (!p) return '';
@@ -59,9 +61,25 @@ interface Props {
 export const Territory = memo(function Territory({ movement, layout, selected, selectedChildId, dimmed, related, onSelect, onHover }: Props) {
   const { x, y, r } = layout;
   const palette = movement.map.palette;
-  const styleById = new Map(movement.styles.map((s) => [s.id, s]));
-  const fmById = new Map(movement.filmmakers.map((f) => [f.id, f]));
-  const filmById = new Map(movement.films.map((f) => [f.id, f]));
+
+  // Re-rendu à chaque frame de zoom/pan (léger : tests booléens seulement) pour
+  // ne monter dans le DOM que les enfants du niveau courant ET visibles à
+  // l'écran — sans ça, ~5 000 nœuds masqués (opacity:0) pèsent sur le mobile.
+  const v = useViewTransform();
+  const lvl = levelFor(v.k);
+  const PAD = 220; // px écran : les libellés débordent sans apparaître brutalement
+  const inView = (cx: number, cy: number) => {
+    const sx = v.x + cx * v.k;
+    const sy = v.y + cy * v.k;
+    return sx > -PAD && sx < v.width + PAD && sy > -PAD && sy < v.height + PAD;
+  };
+  const showStyles = lvl >= 1;
+  const showFilmmakers = lvl >= 2;
+  const showFilms = lvl >= 3;
+
+  const styleById = useMemo(() => new Map(movement.styles.map((s) => [s.id, s])), [movement]);
+  const fmById = useMemo(() => new Map(movement.filmmakers.map((f) => [f.id, f])), [movement]);
+  const filmById = useMemo(() => new Map(movement.films.map((f) => [f.id, f])), [movement]);
 
   const cls = `territory${selected ? ' selected' : ''}${dimmed ? ' dimmed' : ''}${related ? ' related' : ''}`;
 
@@ -105,10 +123,20 @@ export const Territory = memo(function Territory({ movement, layout, selected, s
         onSelect('movement', movement.id, layout);
       }}
     >
-      {/* halo de sélection */}
-      <path className="halo" d={layout.path} fill="none" stroke={palette.accent} strokeWidth={10} filter="url(#halo-blur)" />
-      {/* aplat + grain papier */}
-      <path className="fill" d={layout.path} fill={palette.fill} fillOpacity={0.55} filter="url(#paper-grain)" />
+      {/* halo de sélection — flou coûteux : réservé au desktop ; sur mobile,
+          monté seulement à la sélection et sans flou */}
+      {(selected || !LITE) && (
+        <path
+          className="halo"
+          d={layout.path}
+          fill="none"
+          stroke={palette.accent}
+          strokeWidth={10}
+          filter={LITE ? undefined : 'url(#halo-blur)'}
+        />
+      )}
+      {/* aplat + grain papier (feTurbulence : desktop seulement) */}
+      <path className="fill" d={layout.path} fill={palette.fill} fillOpacity={0.55} filter={LITE ? undefined : 'url(#paper-grain)'} />
       <path className="edge" d={layout.path} fill="none" stroke={palette.stroke} strokeWidth={selected ? 3.4 : 1.8} strokeOpacity={0.9} />
       {/* isoligne pointillée (même forme, r + 18) */}
       <path d={layout.isoPath} fill="none" stroke={palette.stroke} strokeWidth={1} strokeOpacity={0.4} strokeDasharray="5 7" />
@@ -129,8 +157,9 @@ export const Territory = memo(function Territory({ movement, layout, selected, s
 
       {/* styles — niveau 1 */}
       <g className="layer layer-1">
-        {layout.children
-          .filter((c) => c.kind === 'style')
+        {showStyles &&
+          layout.children
+          .filter((c) => c.kind === 'style' && inView(c.x, c.y))
           .map((c) => {
             const s = styleById.get(c.id);
             if (!s) return null;
@@ -167,8 +196,9 @@ export const Territory = memo(function Territory({ movement, layout, selected, s
 
       {/* cinéastes — niveau 2 */}
       <g className="layer layer-2">
-        {layout.children
-          .filter((c) => c.kind === 'filmmaker')
+        {showFilmmakers &&
+          layout.children
+          .filter((c) => c.kind === 'filmmaker' && inView(c.x, c.y))
           .map((c) => {
             const f = fmById.get(c.id);
             if (!f) return null;
@@ -208,8 +238,9 @@ export const Territory = memo(function Territory({ movement, layout, selected, s
 
       {/* films — niveau 3 */}
       <g className="layer layer-3">
-        {layout.children
-          .filter((c) => c.kind === 'film')
+        {showFilms &&
+          layout.children
+          .filter((c) => c.kind === 'film' && inView(c.x, c.y))
           .map((c) => {
             const f = filmById.get(c.id);
             if (!f) return null;
