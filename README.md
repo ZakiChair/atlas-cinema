@@ -84,3 +84,4 @@ React 19 + Vite + TypeScript, D3 (zoom, courbes), Tailwind v4, Playwright, Vites
   en espace écran, avec anti-collision.
 - `src/ui/` — barre supérieure, recherche, filtres, légende, méthode, panneau/feuille, popover de lien.
 - `src/state/store.tsx` — sélection, filtres, état d’interface.
+<!-- déployé sur Vercel : https://atlas-cinema-six.vercel.app -->
