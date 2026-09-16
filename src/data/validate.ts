@@ -1,4 +1,4 @@
-import type { Era, Link, Movement, Region, Source } from './types';
+import type { Era, FilmmakerLink, Link, Movement, Region, Source } from './types';
 import { MAP_SIZE } from './eras';
 
 export interface AtlasInput {
@@ -7,6 +7,7 @@ export interface AtlasInput {
   sources: Source[];
   eras: Era[];
   regions: Region[];
+  filmmakerLinks?: FilmmakerLink[];
 }
 
 const HEX = /^#[0-9a-fA-F]{6}$/;
@@ -14,7 +15,7 @@ const HEX = /^#[0-9a-fA-F]{6}$/;
 /** Validation du corpus : renvoie une liste de messages d'erreur lisibles. */
 export function validateAtlas(input: AtlasInput): string[] {
   const errors: string[] = [];
-  const { movements, links, sources, eras, regions } = input;
+  const { movements, links, sources, eras, regions, filmmakerLinks } = input;
 
   const eraIds = new Set(eras.map((e) => e.id));
   const regionIds = new Set(regions.map((r) => r.id));
@@ -129,6 +130,17 @@ export function validateAtlas(input: AtlasInput): string[] {
     if (linkKeys.has(key)) errors.push(`${ctx} (${l.kind}) : doublon`);
     linkKeys.add(key);
     checkSources(l.sources, ctx);
+  }
+
+  const fmLinkKeys = new Set<string>();
+  for (const l of filmmakerLinks ?? []) {
+    const ctx = `lien cinéaste ${l.source}→${l.target}`;
+    if (!globalFilmmakerIds.has(l.source)) errors.push(`${ctx} : source inconnue « ${l.source} »`);
+    if (!globalFilmmakerIds.has(l.target)) errors.push(`${ctx} : cible inconnue « ${l.target} »`);
+    if (l.source === l.target) errors.push(`${ctx} : auto-lien interdit`);
+    const key = `${l.source}|${l.target}|${l.kind}`;
+    if (fmLinkKeys.has(key)) errors.push(`${ctx} (${l.kind}) : doublon`);
+    fmLinkKeys.add(key);
   }
 
   return errors;

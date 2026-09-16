@@ -1,7 +1,7 @@
 import { useEffect, type ReactNode } from 'react';
 import { useIsDesktop } from './useIsDesktop';
 import { X, ArrowRight, ArrowLeft, ArrowLeftRight } from 'lucide-react';
-import { LINKS, MOVEMENTS, MOVEMENT_BY_ID, SOURCE_BY_ID, REGIONS, FILM_EXTRAS } from '../data';
+import { LINKS, MOVEMENTS, MOVEMENT_BY_ID, SOURCE_BY_ID, REGIONS, FILM_EXTRAS, FILMMAKER_BY_ID, FILMMAKER_LINKS_BY_ID, MOVEMENT_OF_FILMMAKER } from '../data';
 import type { Filmmaker, Movement, Source, Style, Film } from '../data/types';
 import { useStore, type Selection } from '../state/store';
 import { formatPeriod } from '../map/Territory';
@@ -11,6 +11,7 @@ import { Breadcrumb } from './Breadcrumb';
 import { Sheet } from './Sheet';
 import { resolveSelection, sourceOrderFor, type Resolved } from './resolve';
 import { LINK_LABELS } from '../map/LinkLayer';
+import { FM_LINK_LABELS } from '../map/FilmmakerLinkLayer';
 
 type Nav = (sel: Selection | null) => void;
 
@@ -213,6 +214,10 @@ function FilmmakerView({ f, r, nav }: { f: Filmmaker; r: Resolved; nav: Nav }) {
   const home = r.filmmakerHome ?? r.movement!;
   const style = f.styleId ? home.styles.find((s) => s.id === f.styleId) : undefined;
   const also = MOVEMENTS.filter((m) => m.id !== home.id && m.relatedFilmmakerIds?.includes(f.id));
+  const network = (FILMMAKER_LINKS_BY_ID[f.id] ?? []).map((l) => {
+    const otherId = l.source === f.id ? l.target : l.source;
+    return { link: l, other: FILMMAKER_BY_ID[otherId], home: MOVEMENT_OF_FILMMAKER[otherId], outgoing: l.source === f.id };
+  });
   // films dans tous les courants, groupés par courant
   const filmsByMovement = MOVEMENTS.map((m) => ({ m, films: m.films.filter((x) => x.filmmakerId === f.id) })).filter(
     (g) => g.films.length > 0,
@@ -252,6 +257,43 @@ function FilmmakerView({ f, r, nav }: { f: Filmmaker; r: Resolved; nav: Nav }) {
               </ul>
             </div>
           ))}
+        </Section>
+      )}
+      {network.length > 0 && (
+        <Section title="Réseau">
+          <ul className="space-y-1.5">
+            {network.map(({ link, other, home: oh, outgoing }) =>
+              other ? (
+                <li key={`${link.source}|${link.target}|${link.kind}`} className="text-sm">
+                  <span className="text-xs uppercase tracking-wider text-[#a39c8c] mr-2">{FM_LINK_LABELS[link.kind]}</span>
+                  <button className="text-[#e8d9a8] hover:underline" onClick={() => nav({ kind: 'filmmaker', id: other.id })}>
+                    {other.name}
+                  </button>
+                  {link.epistemic && (
+                    <span className={`ml-2 ${link.epistemic === 'fait' ? 'badge-fait' : 'badge-interp'}`}>
+                      {link.epistemic === 'fait' ? 'Fait' : 'Interprétation'}
+                    </span>
+                  )}
+                  {oh && oh.id !== home.id && (
+                    <>
+                      {' '}
+                      <span className="text-[#a39c8c]">
+                        (
+                        <button className="hover:text-[#e8d9a8]" onClick={() => nav({ kind: 'movement', id: oh.id })}>
+                          {oh.name}
+                        </button>
+                        )
+                      </span>
+                    </>
+                  )}
+                  <span className="block text-[#cfc8b8] pl-2 border-l border-white/10 mt-0.5">
+                    {!outgoing && link.kind !== 'collaboration' && link.kind !== 'affinite' ? `${other.name} → ${f.name} : ` : ''}
+                    {link.note}
+                  </span>
+                </li>
+              ) : null,
+            )}
+          </ul>
         </Section>
       )}
       <p className="text-sm">

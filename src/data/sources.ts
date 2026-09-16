@@ -365,6 +365,30 @@ export const SOURCES: Source[] = [
   { id: 'godard-par-godard', type: 'livre', author: 'Jean-Luc Godard (éd. Alain Bergala)', title: 'Godard par Godard', year: 1985, publisher: 'Cahiers du cinéma', note: 'Entretiens et textes, deux tomes (1985, 1998).' },
   { id: 'frodon-cinema-francais', type: 'livre', author: 'Jean-Michel Frodon', title: 'Le Cinéma français, de la Nouvelle Vague à nos jours', year: 2010, publisher: 'Cahiers du cinéma' },
   { id: 'neupert-french-new-wave', type: 'livre', author: 'Richard Neupert', title: 'A History of the French New Wave Cinema', year: 2002, publisher: 'University of Wisconsin Press' },
+
+  // — École de Berlin et cinéma européen contemporain —
+  { id: 'abel-berlin-school', type: 'livre', author: 'Marco Abel', title: 'The Counter-Cinema of the Berlin School', year: 2013, publisher: 'Camden House', note: 'Étude fondatrice de l’École de Berlin comme « contre-cinématographie » allemande.' },
+  { id: 'cook-berlin-school', type: 'livre', author: 'Roger F. Cook, Lutz Koepnick, Kristin Kopp, Brad Prager (dir.)', title: 'Berlin School Glossary: An ABC of the New Wave in German Cinema', year: 2013, publisher: 'Intellect', note: 'Lexique collectif des cinéastes, motifs et contextes de la Berliner Schule.' },
+  { id: 'fisher-petzold', type: 'livre', author: 'Jaimey Fisher', title: 'Christian Petzold', year: 2013, publisher: 'University of Illinois Press (Contemporary Film Directors)', note: 'Monographie de référence sur Petzold et sa méthode des fantômes historiques.' },
+  { id: 'elsaesser-european-cinema', type: 'livre', author: 'Thomas Elsaesser', title: 'European Cinema: Face to Face with Hollywood', year: 2005, publisher: 'Amsterdam University Press', note: 'Cadre théorique du cinéma européen comme « face à face » avec Hollywood : festivals, coproductions, art cinema.' },
+  { id: 'brunette-haneke', type: 'livre', author: 'Peter Brunette', title: 'Michael Haneke', year: 2010, publisher: 'University of Illinois Press (Contemporary Film Directors)' },
+  { id: 'mai-dardenne', type: 'livre', author: 'Joseph Mai', title: 'Jean-Pierre and Luc Dardenne', year: 2010, publisher: 'University of Illinois Press (Contemporary Film Directors)' },
+  { id: 'strauss-almodovar', type: 'livre', author: 'Frédéric Strauss', title: 'Almodóvar: A Passionate Life', year: 2006, publisher: 'Telema' },
+  { id: 'nestingen-kaurismaki', type: 'livre', author: 'Andrew Nestingen', title: 'The Cinema of Aki Kaurismäki: Contrarian Stories', year: 2013, publisher: 'Wallflower Press' },
+  { id: 'falvey-lanthimos', type: 'livre', author: 'Eddie Falvey', title: 'The Cinema of Yorgos Lanthimos: Films, Form, Philosophy', year: 2020, publisher: 'Bloomsbury' },
+
+  // — Amérique latine contemporaine —
+  { id: 'shaw-three-amigos', type: 'livre', author: 'Deborah Shaw', title: 'The Three Amigos: The Transnational Filmmaking of Guillermo del Toro, Alejandro González Iñárritu, and Alfonso Cuarón', year: 2013, publisher: 'Manchester University Press' },
+  { id: 'shaw-contemporary-latin', type: 'livre', author: 'Deborah Shaw', title: 'Contemporary Latin American Cinema: Ten Key Films', year: 2003, publisher: 'Continuum' },
+  { id: 'elena-diaz-lopez', type: 'livre', author: 'Alberto Elena, Marina Díaz López (dir.)', title: 'The Cinema of Latin America', year: 2003, publisher: 'Wallflower Press' },
+  { id: 'nagib-new-brazilian', type: 'livre', author: 'Lúcia Nagib', title: 'The New Brazilian Cinema', year: 2003, publisher: 'I.B. Tauris' },
+
+  // — Japon contemporain —
+  { id: 'bingham-contemporary-japanese', type: 'livre', author: 'Adam Bingham', title: 'Contemporary Japanese Cinema Since Hana-Bi', year: 2015, publisher: 'Edinburgh University Press', note: 'Étude de référence de la génération Kore-eda, Kiyoshi Kurosawa, Kawase.' },
+  { id: 'gerow-kitano', type: 'livre', author: 'Aaron Gerow', title: 'Kitano Takeshi', year: 2007, publisher: 'British Film Institute' },
+  { id: 'mes-midnight-eye', type: 'livre', author: 'Tom Mes, Jasper Sharp', title: 'The Midnight Eye Guide to New Japanese Film', year: 2005, publisher: 'Stone Bridge Press', note: 'Panorama du cinéma japonais des années 1990-2000 : V-cinéma, J-Horror, auteurs.' },
+  { id: 'mes-agitator', type: 'livre', author: 'Tom Mes', title: 'Agitator: The Cinema of Takashi Miike', year: 2003, publisher: 'FAB Press' },
+  { id: 'jacoby-critical-handbook', type: 'livre', author: 'Alexander Jacoby', title: 'A Critical Handbook of Japanese Film Directors', year: 2008, publisher: 'Stone Bridge Press' },
 ];
 
 export const SOURCE_BY_ID: Record<string, Source> = Object.fromEntries(SOURCES.map((s) => [s.id, s]));

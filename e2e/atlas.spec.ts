@@ -95,6 +95,37 @@ test('mobile : recherche en overlay', async ({ page }, testInfo) => {
   await expect(page.locator('[data-testid="panel-sheet"]')).toContainText('Jean-Luc Godard');
 });
 
+test('cinéaste : section Réseau et arcs sur la carte', async ({ page }, testInfo) => {
+  await page.goto('/#/cineaste/kore-eda');
+  await dismissIntro(page);
+  const panel = page.locator('[data-testid="panel"], [data-testid="panel-sheet"]');
+  await expect(panel).toContainText('Hirokazu Kore-eda');
+  await expect(panel).toContainText('Réseau');
+  // les arcs cinéaste↔cinéaste apparaissent quand un cinéaste est sélectionné
+  await expect(page.locator('.fm-links .fm-link')).not.toHaveCount(0);
+  if (testInfo.project.name === 'desktop') {
+    await page.waitForTimeout(1300);
+    await page.screenshot({ path: 'e2e/artifacts/desktop-reseau-kore-eda.png' });
+  }
+});
+
+test('nouveau courant : École de Berlin', async ({ page }, testInfo) => {
+  if (testInfo.project.name === 'mobile') {
+    // le territoire est hors du viewport initial en portrait : navigation directe
+    await page.goto('/#/courant/ecole-de-berlin');
+    await dismissIntro(page);
+  } else {
+    await page.locator('[data-testid="territory"][data-id="ecole-de-berlin"]').click({ force: true });
+  }
+  const panel = page.locator('[data-testid="panel"], [data-testid="panel-sheet"]');
+  await expect(panel).toContainText('École de Berlin');
+  await expect(panel).toContainText('Petzold');
+  if (testInfo.project.name === 'desktop') {
+    await page.waitForTimeout(1100);
+    await page.screenshot({ path: 'e2e/artifacts/desktop-niveau1-ecole-de-berlin.png' });
+  }
+});
+
 test('intro : affichage, fermeture, persistance', async ({ page, context }) => {
   await context.clearCookies();
   await page.evaluate(() => localStorage.clear());

@@ -1,4 +1,4 @@
-import type { Movement } from './types';
+import type { Filmmaker, Movement } from './types';
 import { MUET } from './movements/muet';
 import { CLASSIQUE } from './movements/classique';
 import { MODERNITES } from './movements/modernites';
@@ -16,4 +16,14 @@ export const MOVEMENTS: Movement[] = [...MUET, ...CLASSIQUE, ...MODERNITES, ...C
 
 export const MOVEMENT_BY_ID: Record<string, Movement> = Object.fromEntries(MOVEMENTS.map((m) => [m.id, m]));
 
+export const FILMMAKER_BY_ID: Record<string, Filmmaker> = Object.fromEntries(
+  MOVEMENTS.flatMap((m) => m.filmmakers.map((f) => [f.id, f] as const)),
+);
+
+/** Mouvement dans lequel chaque cinéaste est rangé (les ids de cinéastes sont uniques globalement). */
+export const MOVEMENT_OF_FILMMAKER: Record<string, Movement> = Object.fromEntries(
+  MOVEMENTS.flatMap((m) => m.filmmakers.map((f) => [f.id, m] as const)),
+);
+
 export { FILM_EXTRAS } from './filmExtras';
+export { FILMMAKER_LINKS, FILMMAKER_LINKS_BY_ID } from './filmmakerLinks';

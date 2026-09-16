@@ -294,6 +294,56 @@ svg.atlas-map[data-level='1'] .territory:hover .territory-name {
   pointer-events: stroke;
 }
 
+/* ——— liens entre cinéastes (affichés à la sélection d'un cinéaste) ——— */
+.fm-link {
+  fill: none;
+  vector-effect: non-scaling-stroke;
+  stroke-width: 1.5px;
+  stroke-dasharray: 5 4;
+  opacity: 0.9;
+}
+.fm-link-group.fm-filiation {
+  color: #e8d9a8;
+}
+.fm-link-group.fm-influence {
+  color: #8fd3ff;
+}
+.fm-link-group.fm-affinite {
+  color: #c9a0ff;
+}
+.fm-link-group.fm-reaction {
+  color: #ff6b5a;
+}
+.fm-link-group.fm-collaboration {
+  color: #7de8a8;
+}
+.fm-link {
+  stroke: currentColor;
+}
+.fm-link-dot {
+  fill: currentColor;
+  stroke: rgba(10, 9, 16, 0.9);
+  stroke-width: 1.5px;
+  vector-effect: non-scaling-stroke;
+}
+.fm-link-label {
+  font-family: var(--font-sans);
+  font-size: calc(10.5px / var(--k, 1));
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  fill: currentColor;
+  paint-order: stroke;
+  stroke: rgba(10, 9, 16, 0.85);
+  stroke-width: calc(4px / var(--k, 1));
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+@media (max-width: 1023px) {
+  .fm-link-label {
+    display: none;
+  }
+}
+
 /* ——— graticule ——— */
 .graticule-line {
   stroke: rgba(236, 230, 216, 0.07);

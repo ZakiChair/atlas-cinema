@@ -145,6 +145,18 @@ export interface FilmExtra {
   qid?: string;
 }
 
+/** Lien entre deux cinéastes : filiation (élève/assistant), influence, collaboration, affinité ou rupture. */
+export interface FilmmakerLink {
+  /** Filmmaker.id source. */
+  source: string;
+  /** Filmmaker.id cible. */
+  target: string;
+  kind: LinkKind | 'collaboration';
+  /** Une ligne : la nature précise du lien (mentor, duo, remake, école…). */
+  note: string;
+  epistemic?: Epistemic;
+}
+
 export interface MapPlacement {
   /** Coordonnées cibles en unités carte (voir MAP_SIZE : 4400 × 3200). L'axe x suit les bandes d'ères (ERA_BANDS), l'axe y les aires géographiques (REGIONS.laneY). */
   x: number;

@@ -1817,7 +1817,24 @@
   "cast": []
  },
  "sous-les-toits-de-paris": {
-  "checkedAt": "2026-09-15T21:07:00.458Z"
+  "checkedAt": "2026-09-16T05:41:51.600Z",
+  "qid": "Q2162104",
+  "directors": [
+   "René Clair"
+  ],
+  "cast": [
+   "Albert Préjean",
+   "Pola Illéry",
+   "Gaston Modot",
+   "Delphine Abdala",
+   "Edmond T. Gréville",
+   "Édouard Francomme",
+   "Eugène Stuber",
+   "Léo Courtois"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/12/Under_the_Roofs_of_Paris_poster.jpg",
+  "synopsis": "Sous les toits de Paris est un film franco-allemand réalisé par René Clair et sorti en 1930.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sous_les_toits_de_Paris_(film%2C_1930)"
  },
  "vertigo": {
   "checkedAt": "2026-09-15T21:06:08.181Z",
@@ -1860,7 +1877,24 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Tout_ce_que_le_ciel_permet"
  },
  "zero-de-conduite": {
-  "checkedAt": "2026-09-15T21:07:00.457Z"
+  "checkedAt": "2026-09-16T05:41:51.668Z",
+  "qid": "Q613216",
+  "directors": [
+   "Jean Vigo"
+  ],
+  "cast": [
+   "Pierre Blanchar",
+   "Jean Dasté",
+   "Delphin",
+   "Albert Riéra",
+   "Q2012984",
+   "Henri Storck",
+   "Léon Larive",
+   "Louis de Gonzague-Frick"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/2a/Zero_de_conduite.jpg",
+  "synopsis": "Zéro de conduite est un film français de Jean Vigo, sorti en 1933.\nInspirée des souvenirs personnels de Jean Vigo, l'œuvre est considérée à sa sortie comme un violent pamphlet libertaire, et sera interdite par la censure jusqu'en 1946.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Z%C3%A9ro_de_conduite_(film)"
  },
  "l-atalante": {
   "checkedAt": "2026-09-15T21:07:02.066Z",
@@ -3030,7 +3064,12 @@
   "poster": "https://upload.wikimedia.org/wikipedia/en/d/de/Vitelloni_psoter.jpg"
  },
  "a-movie": {
-  "checkedAt": "2026-09-15T21:07:40.369Z"
+  "checkedAt": "2026-09-16T05:41:53.949Z",
+  "qid": "Q2650998",
+  "directors": [],
+  "cast": [],
+  "synopsis": "A Movie (ou A MOVIE) est un film collage expérimental américain de Bruce Conner sortie en 1958. Depuis 2013, A Movie fait partie de la collection permanente du musée Georges Pompidou.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/A_Movie"
  },
  "viaggio-in-italia": {
   "checkedAt": "2026-09-15T20:42:08.468Z",
@@ -3312,7 +3351,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/La_Vie_d'O'Haru_femme_galante"
  },
  "walden": {
-  "checkedAt": "2026-09-15T21:08:07.045Z"
+  "checkedAt": "2026-09-16T05:42:06.870Z"
  },
  "tokyo-story": {
   "checkedAt": "2026-09-15T20:43:08.842Z",
@@ -4457,7 +4496,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/La_Noire_de%E2%80%A6"
  },
  "soleil-o": {
-  "checkedAt": "2026-09-15T21:09:05.473Z"
+  "checkedAt": "2026-09-16T05:43:04.101Z"
  },
  "al-mummia": {
   "checkedAt": "2026-09-15T20:46:09.899Z",
@@ -4737,7 +4776,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Un_go%C3%BBt_de_miel"
  },
  "together-mazzetti": {
-  "checkedAt": "2026-09-15T21:09:16.022Z"
+  "checkedAt": "2026-09-16T05:43:08.415Z"
  },
  "the-loneliness-of-the-long-distance-runner": {
   "checkedAt": "2026-09-15T20:47:08.735Z",
@@ -5534,7 +5573,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Chat_dans_le_sac"
  },
  "primary": {
-  "checkedAt": "2026-09-15T21:10:09.881Z"
+  "checkedAt": "2026-09-16T05:43:35.392Z"
  },
  "dont-look-back": {
   "checkedAt": "2026-09-15T20:49:07.857Z",
@@ -5952,7 +5991,17 @@
   "cast": []
  },
  "tire-die": {
-  "checkedAt": "2026-09-15T21:11:00.687Z"
+  "checkedAt": "2026-09-16T05:44:01.815Z",
+  "qid": "Q7809170",
+  "directors": [
+   "Fernando Birri"
+  ],
+  "cast": [
+   "María Rosa Gallo",
+   "Francisco Petrone"
+  ],
+  "synopsis": "Tire dié est un documentaire argentin réalisé par Fernando Birri, sorti en 1960. Son titre est une abréviation de \"tire diez [centavos]\", c'est-à-dire \"jetez dix centimes\".",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tire_di%C3%A9"
  },
  "memorias-del-subdesarrollo": {
   "checkedAt": "2026-09-15T20:51:01.259Z",
@@ -6052,7 +6101,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/O_Bandido_da_Luz_Vermelha"
  },
  "now-alvarez": {
-  "checkedAt": "2026-09-15T21:11:03.913Z"
+  "checkedAt": "2026-09-16T05:44:06.050Z"
  },
  "macunaima": {
   "checkedAt": "2026-09-15T20:51:04.621Z",
@@ -7237,7 +7286,24 @@
   "cast": []
  },
  "badlands": {
-  "checkedAt": "2026-09-15T21:11:59.859Z"
+  "checkedAt": "2026-09-16T05:44:05.951Z",
+  "qid": "Q799202",
+  "directors": [
+   "Terrence Malick"
+  ],
+  "cast": [
+   "Martin Sheen",
+   "Sissy Spacek",
+   "Warren Oates",
+   "Ramon Bieri",
+   "Alan Vint",
+   "Gary Littlejohn",
+   "John Carter",
+   "Bryan Montgomery"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e6/Badlands_movie_poster.jpg",
+  "synopsis": "La Balade sauvage (Badlands) est un film écrit et réalisé par Terrence Malick, sorti en 1973. En France, le titre a d'abord été orthographié La Ballade sauvage par erreur.\nPremier long métrage du cinéaste, il met en scène Sissy Spacek et Martin Sheen dans les rôles principaux.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/La_Balade_sauvage"
  },
  "taxi-driver": {
   "checkedAt": "2026-09-15T20:55:01.069Z",
@@ -7503,7 +7569,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Un_instant_d'innocence"
  },
  "tabiat-e-bijan": {
-  "checkedAt": "2026-09-15T21:12:06.113Z"
+  "checkedAt": "2026-09-16T05:44:36.406Z"
  },
  "the-white-balloon": {
   "checkedAt": "2026-09-15T20:55:08.236Z",
@@ -8234,10 +8300,34 @@
   "cast": []
  },
  "made-in-hong-kong": {
-  "checkedAt": "2026-09-15T21:12:47.022Z"
+  "checkedAt": "2026-09-16T05:45:03.800Z",
+  "qid": "Q842442",
+  "directors": [
+   "Fruit Chan"
+  ],
+  "cast": [
+   "Sam Lee"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/0/07/Made_in_hong_kong_poster.jpg",
+  "synopsis": "Made in Hong Kong (香港製造, Xiang Gang zhi zao) est un film hongkongais réalisé par Fruit Chan, sorti en 1997.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Made_in_Hong_Kong"
  },
  "the-mission": {
-  "checkedAt": "2026-09-15T21:12:53.483Z"
+  "checkedAt": "2026-09-16T05:45:05.366Z",
+  "qid": "Q839744",
+  "directors": [
+   "Johnnie To"
+  ],
+  "cast": [
+   "Anthony Wong Chau-sang",
+   "Francis Ng",
+   "Roy Cheung",
+   "Lam Suet",
+   "Simon Yam"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/9/9c/TheMission1999.jpg",
+  "synopsis": "The Mission (鎗火, Cheung fo) est un film hongkongais réalisé par Johnnie To, sorti en 1999.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/The_Mission_(film)"
  },
  "diva": {
   "checkedAt": "2026-09-15T20:58:00.658Z",
@@ -9023,7 +9113,20 @@
   "cast": []
  },
  "trust": {
-  "checkedAt": "2026-09-15T21:13:21.566Z"
+  "checkedAt": "2026-09-16T05:46:10.435Z",
+  "qid": "Q2545805",
+  "directors": [
+   "Hal Hartley"
+  ],
+  "cast": [
+   "Adrienne Shelly",
+   "Martin Donovan",
+   "Edie Falco",
+   "Karen Sillas"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/c/cb/Trust-film-poster.jpg",
+  "synopsis": "Trust Me  (Trust) est un film américano-britannique de Hal Hartley, sorti en 1991.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Trust_Me_(film%2C_1991)"
  },
  "my-own-private-idaho": {
   "checkedAt": "2026-09-15T21:13:07.040Z",
@@ -9133,7 +9236,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Funny_Ha_Ha"
  },
  "safe": {
-  "checkedAt": "2026-09-15T21:13:21.526Z"
+  "checkedAt": "2026-09-16T05:46:11.099Z"
  },
  "lost-in-translation": {
   "checkedAt": "2026-09-15T21:00:04.390Z",
@@ -9156,7 +9259,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Lost_in_Translation"
  },
  "black-cannon-incident": {
-  "checkedAt": "2026-09-15T21:14:01.396Z"
+  "checkedAt": "2026-09-16T05:47:07.794Z"
  },
  "frances-ha": {
   "checkedAt": "2026-09-15T21:00:04.207Z",
@@ -10741,13 +10844,45 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Bad_Luck_Banging_or_Loony_Porn"
  },
  "rescued-by-rover": {
-  "checkedAt": "2026-09-15T21:05:01.018Z"
+  "checkedAt": "2026-09-16T05:41:45.383Z",
+  "qid": "Q1333248",
+  "directors": [
+   "Lewin Fitzhamon",
+   "Cecil Hepworth"
+  ],
+  "cast": [
+   "Cecil Hepworth",
+   "May Clark",
+   "Blair",
+   "Jocelyn Barbara Hepworth"
+  ],
+  "synopsis": "Sauvée par Rover (Rescued by Rover) est un film britannique réalisé par Lewin Fitzhamon, sorti en 1905.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sauv%C3%A9e_par_Rover"
  },
  "our-hospitality": {
-  "checkedAt": "2026-09-15T21:05:01.021Z"
+  "checkedAt": "2026-09-16T05:41:45.532Z",
+  "qid": "Q1199039",
+  "directors": [
+   "Buster Keaton",
+   "John G. Blystone"
+  ],
+  "cast": [
+   "Buster Keaton",
+   "Joe Keaton",
+   "Natalie Talmadge",
+   "Joe Roberts",
+   "Edward Coxen"
+  ],
+  "synopsis": "Les Lois de l'hospitalité (Our Hospitality) est un film muet américain réalisé par Buster Keaton et John G. Blystone sorti en 1923.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Les_Lois_de_l'hospitalit%C3%A9"
  },
  "inferno-1911": {
-  "checkedAt": "2026-09-15T21:05:01.561Z"
+  "checkedAt": "2026-09-16T05:41:45.633Z",
+  "qid": "Q3204171",
+  "directors": [],
+  "cast": [],
+  "synopsis": "L'Inferno est un film muet italien inspiré de la Divine Comédie, réalisé par Giuseppe Berardi et Arturo Busnengo, sorti en 1911.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L'Inferno_(film%2C_1911)"
  },
  "the-mark-of-zorro": {
   "checkedAt": "2026-09-15T21:05:01.540Z",
@@ -10917,7 +11052,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/An%C3%A9mic_Cin%C3%A9ma"
  },
  "michael-1924": {
-  "checkedAt": "2026-09-15T21:05:16.483Z"
+  "checkedAt": "2026-09-16T05:41:53.649Z"
  },
  "die-nibelungen": {
   "checkedAt": "2026-09-15T21:05:09.779Z",
@@ -10926,10 +11061,41 @@
   "cast": []
  },
  "sylvester": {
-  "checkedAt": "2026-09-15T21:05:47.965Z"
+  "checkedAt": "2026-09-16T05:41:50.092Z",
+  "qid": "Q2374049",
+  "directors": [
+   "Lupu Pick"
+  ],
+  "cast": [
+   "Eugen Klöpfer",
+   "Edith Posca",
+   "Frida Richard",
+   "Karl Harbacher",
+   "Rudolf Blümner"
+  ],
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/New_Year%27s_Eve_%281924%29_poster.webp/500px-New_Year%27s_Eve_%281924%29_poster.webp",
+  "synopsis": "La Nuit de la Saint-Sylvestre (en allemand : Sylvester: Tragödie einer Nacht) est un Kammerspielfilm muet allemand réalisé par Lupu Pick et sorti en 1924.\nFilmé en 1923, le film est connu pour être l'un des premiers films du genre Kammerspiel et d'avoir été novateur par l'utilisation extensive de la entfesselte Kamera, qui suit l'action au lieu d'être statique. Comme dans les films précédents de Pick, La Nuit de la Saint-Sylvestre ne comporte pas d'intertitres.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/La_Nuit_de_la_Saint-Sylvestre"
  },
  "asphalt-1929": {
-  "checkedAt": "2026-09-15T21:06:00.584Z"
+  "checkedAt": "2026-09-16T05:41:46.322Z",
+  "qid": "Q386620",
+  "directors": [
+   "Joe May"
+  ],
+  "cast": [
+   "Gustav Fröhlich",
+   "Albert Steinrück",
+   "Betty Amann",
+   "Hans Adalbert Schlettow",
+   "Hans Albers",
+   "Paul Hörbiger",
+   "Rosa Valetti",
+   "Hermann Vallentin"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/3/3d/Asphalt-german-movie-poster-md.jpg",
+  "synopsis": "Asphalte (Asphalt) est un film dramatique allemand réalisé par Joe May, sorti en 1929.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Asphalte_(film%2C_1929)"
  },
  "lit-et-sofa": {
   "checkedAt": "2026-09-15T21:06:02.690Z",
@@ -10988,10 +11154,10 @@
   "wikiUrl": "https://en.wikipedia.org/wiki/Words_for_Battle"
  },
  "shipyard": {
-  "checkedAt": "2026-09-15T21:06:09.454Z"
+  "checkedAt": "2026-09-16T05:41:50.783Z"
  },
  "the-first-days": {
-  "checkedAt": "2026-09-15T21:06:09.721Z"
+  "checkedAt": "2026-09-16T05:41:52.080Z"
  },
  "frankenstein-1931": {
   "checkedAt": "2026-09-15T21:06:09.219Z",
@@ -11020,10 +11186,47 @@
   "cast": []
  },
  "gone-with-the-wind": {
-  "checkedAt": "2026-09-15T21:06:53.998Z"
+  "checkedAt": "2026-09-16T05:41:49.043Z",
+  "qid": "Q2875",
+  "directors": [
+   "Victor Fleming",
+   "George Cukor",
+   "Sam Wood"
+  ],
+  "cast": [
+   "Clark Gable",
+   "Vivien Leigh",
+   "Leslie Howard",
+   "Olivia de Havilland",
+   "Hattie McDaniel",
+   "Butterfly McQueen",
+   "Thomas Mitchell",
+   "Barbara O'Neil"
+  ],
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/500px-Poster_-_Gone_With_the_Wind_01.jpg",
+  "synopsis": "Autant en emporte le vent (Gone with the Wind) est un film américain de Victor Fleming sorti en 1939, adapté du roman du même nom de Margaret Mitchell paru en 1936. Le film sort en salles en 1939 aux États-Unis, et au cours des deux décennies suivantes dans le reste du monde, sa sortie en Europe ayant été retardée par la Seconde Guerre mondiale.\nAvec pour acteurs principaux Vivien Leigh et Clark Gable, le film raconte l'histoire de la jeune Scarlett O'Hara et de Rhett Butler, deux aristocrates du Sud des États-Unis pendant la guerre de Sécession puis lors de la Reconstruction.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Autant_en_emporte_le_vent_(film)"
  },
  "the-wizard-of-oz": {
-  "checkedAt": "2026-09-15T21:07:00.258Z"
+  "checkedAt": "2026-09-16T05:41:49.325Z",
+  "qid": "Q193695",
+  "directors": [
+   "Victor Fleming",
+   "King Vidor"
+  ],
+  "cast": [
+   "Judy Garland",
+   "Frank Morgan",
+   "Ray Bolger",
+   "Jack Haley",
+   "Bert Lahr",
+   "Margaret Hamilton",
+   "Billie Burke",
+   "Charley Grapewin"
+  ],
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Wizard_of_oz_movie_poster.jpg/500px-Wizard_of_oz_movie_poster.jpg",
+  "synopsis": "Le Magicien d'Oz (en anglais : The Wizard of Oz) est un film musical américain produit par la Metro-Goldwyn-Mayer (MGM) et sorti en 1939. Adaptation du roman du même nom de Lyman Frank Baum, il est principalement réalisé par Victor Fleming, qui quitte la production pour reprendre le difficile tournage d'Autant en emporte le vent. Il met en vedette Judy Garland, Frank Morgan, Ray Bolger, Bert Lahr, Jack Haley, Billie Burke et Hamilton.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Magicien_d'Oz_(film%2C_1939)"
  },
  "his-girl-friday": {
   "checkedAt": "2026-09-15T21:07:00.881Z",
@@ -11214,16 +11417,62 @@
   ]
  },
  "the-reckless-moment": {
-  "checkedAt": "2026-09-15T21:07:40.411Z"
+  "checkedAt": "2026-09-16T05:41:53.315Z",
+  "qid": "Q1774998",
+  "directors": [
+   "Max Ophüls"
+  ],
+  "cast": [
+   "James Mason",
+   "Joan Bennett",
+   "Geraldine Brooks",
+   "Shepperd Strudwick",
+   "Henry O'Neill",
+   "Ann Shoemaker",
+   "Dorothy Phillips",
+   "Everett Glass"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/71/The_Reckless_Moment.jpg",
+  "synopsis": "The Reckless Moment is a 1949 American noir melodrama film directed by Max Ophüls, produced by Walter Wanger, and released by Columbia Pictures with Burnett Guffey as cinematographer. It starred James Mason and Joan Bennett. The film is based on The Blank Wall (1947), a novel written by Elisabeth Sanxay Holding.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Reckless_Moment"
  },
  "il-bandito": {
-  "checkedAt": "2026-09-15T21:07:53.146Z"
+  "checkedAt": "2026-09-16T05:41:54.053Z",
+  "qid": "Q3220262",
+  "directors": [],
+  "cast": [],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/a/ae/The_Bandit_%281946_film%29.jpg",
+  "synopsis": "Le Bandit (titre original : Il bandito) est un film italien réalisé en 1946 par Alberto Lattuada.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Bandit_(film%2C_1946)"
  },
  "senza-pieta": {
-  "checkedAt": "2026-09-15T21:07:53.151Z"
+  "checkedAt": "2026-09-16T05:41:54.172Z",
+  "qid": "Q3472468",
+  "directors": [],
+  "cast": [],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/70/Senza_piet%C3%A0_%281948_film_poster%29.jpg",
+  "synopsis": "Sans pitié (titre original : Senza pietà) est un film italien réalisé par Alberto Lattuada, sorti en 1948.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sans_piti%C3%A9_(film%2C_1948)"
  },
  "domenica-d-agosto": {
-  "checkedAt": "2026-09-15T21:07:59.403Z"
+  "checkedAt": "2026-09-16T05:42:00.953Z",
+  "qid": "Q652927",
+  "directors": [
+   "Luciano Emmer"
+  ],
+  "cast": [
+   "Elvy Lissiak",
+   "Franco Interlenghi",
+   "Mario Vitale",
+   "Massimo Serato",
+   "Emilio Cigoli",
+   "Marcello Mastroianni",
+   "Ave Ninchi",
+   "Salvo Libassi"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/c/c7/Sunday_in_August.jpg",
+  "synopsis": "Dimanche d'août (titre original : Domenica d'agosto) est un film italien réalisé par Luciano Emmer et sorti en 1950.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Dimanche_d'ao%C3%BBt"
  },
  "at-land": {
   "checkedAt": "2026-09-15T21:08:01.865Z",
@@ -11367,10 +11616,44 @@
   ]
  },
  "il-vangelo-secondo-matteo": {
-  "checkedAt": "2026-09-15T21:08:49.842Z"
+  "checkedAt": "2026-09-16T05:42:04.068Z",
+  "qid": "Q1167120",
+  "directors": [
+   "Pier Paolo Pasolini"
+  ],
+  "cast": [
+   "Enrique Irazoqui",
+   "Susanna Pasolini",
+   "Marcello Morante",
+   "Mario Socrate",
+   "Giorgio Agamben",
+   "Francesco Leonetti",
+   "Ninetto Davoli",
+   "Natalia Ginzburg"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/2b/Pasolini_Gospel_Poster.jpg",
+  "synopsis": "L'Évangile selon saint Matthieu (titre original : Il vangelo secondo Matteo) est un film franco-italien réalisé par Pier Paolo Pasolini et sorti en 1964.\nIl s'agit d'une interprétation cinématographique de l'histoire de Jésus (incarné par l'acteur non professionnel Enrique Irazoqui) d'après l'Évangile selon Matthieu, de l'Annonciation à la Résurrection. Les dialogues sont tirés directement de l'Évangile, Pasolini estimant que « les images ne pourront jamais atteindre les sommets poétiques du texte ».",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L'%C3%89vangile_selon_saint_Matthieu"
  },
  "mama-cumple-cien-anos": {
-  "checkedAt": "2026-09-15T21:09:00.164Z"
+  "checkedAt": "2026-09-16T05:42:04.773Z",
+  "qid": "Q384243",
+  "directors": [
+   "Carlos Saura"
+  ],
+  "cast": [
+   "Geraldine Chaplin",
+   "Amparo Muñoz",
+   "Fernando Fernán Gómez",
+   "Rafaela Aparicio",
+   "Rita Maiden",
+   "José María Prada",
+   "Norman Briski",
+   "José Vivó"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/ef/Mam%C3%A1_cumple_100_a%C3%B1os.jpg",
+  "synopsis": "Maman a cent ans (Mamá cumple cien años) est un film franco-espagnol réalisé par Carlos Saura, sorti en 1979.\nL'action reprend les personnages et se déroule dans les mêmes lieux que le film Anna et les Loups (Ana y los lobos), sorti en 1973.\nLe film remporte le prix spécial du jury au Festival international du film de Saint-Sébastien 1979.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Maman_a_cent_ans"
  },
  "pokolenie": {
   "checkedAt": "2026-09-15T21:09:00.630Z",
@@ -11468,7 +11751,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Aakrosh"
  },
  "party-1984": {
-  "checkedAt": "2026-09-15T21:09:05.270Z"
+  "checkedAt": "2026-09-16T05:42:35.230Z"
  },
  "sambizanga": {
   "checkedAt": "2026-09-15T21:09:05.377Z",
@@ -11523,16 +11806,67 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Franc"
  },
  "darling-1965": {
-  "checkedAt": "2026-09-15T21:09:28.680Z"
+  "checkedAt": "2026-09-16T05:43:08.451Z",
+  "qid": "Q1166360",
+  "directors": [
+   "John Schlesinger"
+  ],
+  "cast": [
+   "Julie Christie",
+   "Laurence Harvey",
+   "Dirk Bogarde",
+   "Umberto Raho",
+   "Vernon Dobtcheff",
+   "Hugo Dyson",
+   "John Woodvine",
+   "José Luis de Vilallonga"
+  ],
+  "synopsis": "Darling chérie (Darling) est un film britannique réalisé par John Schlesinger, sorti en 1965.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Darling_ch%C3%A9rie"
  },
  "the-entertainer": {
-  "checkedAt": "2026-09-15T21:09:34.701Z"
+  "checkedAt": "2026-09-16T05:43:07.952Z",
+  "qid": "Q1194909",
+  "directors": [
+   "Tony Richardson"
+  ],
+  "cast": [
+   "Laurence Olivier",
+   "Brenda De Banzie",
+   "Roger Livesey",
+   "Joan Plowright",
+   "Daniel Massey",
+   "Alan Bates",
+   "Albert Finney",
+   "Shirley Anne Field"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/c/cf/Entertainer75858.jpg",
+  "synopsis": "Le film est basé sur la pièce éponyme de John Osborne et a pour vedette Laurence Olivier.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Cabotin"
  },
  "the-family-way": {
-  "checkedAt": "2026-09-15T21:09:40.873Z"
+  "checkedAt": "2026-09-16T05:43:06.856Z",
+  "qid": "Q7733339",
+  "directors": [
+   "John Boulting",
+   "Roy Boulting"
+  ],
+  "cast": [
+   "Hayley Mills",
+   "Hywel Bennett",
+   "John Mills",
+   "Marjorie Rhodes",
+   "Murray Head",
+   "Avril Angers",
+   "Barry Foster",
+   "Thorley Walters"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/a/ae/1967_movie_poster_Warner_Brothers.jpg",
+  "synopsis": "Chaque chose en son temps (The Family Way) est un film britannique, sorti en 1966, réalisé par Roy Boulting et produit en collaboration de son frère jumeau John. Le scénario est écrit par Bill Naughton, basé sur sa pièce de théâtre All in Good Time (en).",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Chaque_chose_en_son_temps"
  },
  "dobro-pozhalovat": {
-  "checkedAt": "2026-09-15T21:10:01.954Z"
+  "checkedAt": "2026-09-16T05:43:08.487Z"
  },
  "sorok-pervyy": {
   "checkedAt": "2026-09-15T21:10:02.344Z",
@@ -11687,7 +12021,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Un_Am%C3%A9ricain_%C3%A0_Rome"
  },
  "the-chair": {
-  "checkedAt": "2026-09-15T21:10:22.488Z"
+  "checkedAt": "2026-09-16T05:43:29.295Z"
  },
  "la-ragazza-che-sapeva-troppo": {
   "checkedAt": "2026-09-15T21:10:09.446Z",
@@ -11714,7 +12048,24 @@
   "cast": []
  },
  "keoma": {
-  "checkedAt": "2026-09-15T21:11:00.682Z"
+  "checkedAt": "2026-09-16T05:44:02.018Z",
+  "qid": "Q640018",
+  "directors": [
+   "Enzo G. Castellari"
+  ],
+  "cast": [
+   "Franco Nero",
+   "Woody Strode",
+   "William Berger",
+   "Olga Karlatos",
+   "Orso Maria Guerrini",
+   "Gabriella Giacobbe",
+   "Antonio Marsina",
+   "Joshua Sinclair"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e6/Keoma.jpg",
+  "synopsis": "Keoma is a 1976 Italian spaghetti Western film directed by Enzo G. Castellari and starring Franco Nero. It is frequently regarded as one of the better \"twilight\" spaghetti Westerns, being one of the last films of its genre, and is known for its incorporation of newer cinematic techniques of the time (such as slow motion and close/medium panning shots) and its vocal soundtrack by Guido & Maurizio De Angelis.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Keoma_(film)"
  },
  "la-grande-abbuffata": {
   "checkedAt": "2026-09-15T21:11:02.083Z",
@@ -11769,7 +12120,7 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/La_Patagonia_rebelde"
  },
  "iracema": {
-  "checkedAt": "2026-09-15T21:11:05.955Z"
+  "checkedAt": "2026-09-16T05:44:05.533Z"
  },
  "akai-satsui": {
   "checkedAt": "2026-09-15T21:11:05.777Z",
@@ -11875,13 +12226,48 @@
   ]
  },
  "tri-1965": {
-  "checkedAt": "2026-09-15T21:11:40.829Z"
+  "checkedAt": "2026-09-16T05:44:09.858Z",
+  "qid": "Q24862",
+  "directors": [],
+  "cast": [],
+  "synopsis": "Un court métrage (également écrit court-métrage) est un film qui se définit par sa durée, dont la définition précise dépend des normes reconnues selon les pays ou organisations.\nAlors que dans le langage courant, il est souvent compris comme un film de moins de 20 ou 30 minutes, la définition officielle par le Centre national du cinéma et de l'image animée (CNC) en France ou par l'Office fédéral de la culture (OFC) en Suisse est liée à une durée de moins de 60 minutes.\nLe court métrage existe dans la même diversité de formes, de techniques et de genres que le long métrage : documentaire, fiction, film en prise de vues réelles, film d'animation, film expérimental, etc.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Court_m%C3%A9trage"
  },
  "ljubavni-slucaj": {
-  "checkedAt": "2026-09-15T21:11:46.917Z"
+  "checkedAt": "2026-09-16T05:44:05.643Z",
+  "qid": "Q666364",
+  "directors": [
+   "Dušan Makavejev"
+  ],
+  "cast": [
+   "Eva Ras",
+   "Slobodan Aligrudić",
+   "Miodrag Andrić",
+   "Ružica Sokić"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/9/9f/Love_Affair%2C_or_the_Case_of_the_Missing_Switchboard_Operator_1967_film.jpg",
+  "synopsis": "T. ) est un film yougoslave réalisé par Dušan Makavejev, sorti en 1967.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Une_affaire_de_c%C5%93ur_%3A_La_trag%C3%A9die_d'une_employ%C3%A9e_des_P.T.T."
  },
  "rozmarse-leto": {
-  "checkedAt": "2026-09-15T21:11:47.007Z"
+  "checkedAt": "2026-09-16T05:44:05.179Z",
+  "qid": "Q3491788",
+  "directors": [
+   "Jiří Menzel"
+  ],
+  "cast": [
+   "Rudolf Hrušínský",
+   "Míla Myslíková",
+   "Vlastimil Brodský",
+   "František Řehák",
+   "Jana Preissová",
+   "Jiří Menzel",
+   "Bohumil Záhorský",
+   "Pavel Bošek"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/9/9c/Capricious_Summer.jpg",
+  "synopsis": "Un été capricieux (Rozmarné léto) est un film tchécoslovaque réalisé par Jiří Menzel, sorti en 1968. \nC'est l'adaptation du roman du même nom publié par Vladislav Vančura en 1926. Le film fait partie de la sélection officielle du Festival de Cannes 1968 qui est interrompu à cause de Mai 68.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Un_%C3%A9t%C3%A9_capricieux"
  },
  "five-easy-pieces": {
   "checkedAt": "2026-09-15T21:12:01.717Z",
@@ -12100,7 +12486,22 @@
   "cast": []
  },
  "bullet-in-the-head": {
-  "checkedAt": "2026-09-15T21:12:59.636Z"
+  "checkedAt": "2026-09-16T05:45:05.733Z",
+  "qid": "Q1004410",
+  "directors": [
+   "John Woo"
+  ],
+  "cast": [
+   "Tony Leung Chiu-wai",
+   "Jacky Cheung",
+   "Waise Lee",
+   "Simon Yam",
+   "Paw Hee-ching",
+   "John Woo"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e0/BulletintheHead.jpg",
+  "synopsis": "Une balle dans la tête (chinois simplifié : 喋血街头 ; chinois traditionnel : 喋血街頭 ; pinyin : Die xue jie tou) est un film hongkongais réalisé par John Woo et sorti en 1990.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Une_balle_dans_la_t%C3%AAte_(film_hongkongais%2C_1990)"
  },
  "full-contact": {
   "checkedAt": "2026-09-15T21:13:00.967Z",
@@ -12309,13 +12710,60 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Reservoir_Dogs"
  },
  "clerks": {
-  "checkedAt": "2026-09-15T21:13:46.975Z"
+  "checkedAt": "2026-09-16T05:46:08.511Z",
+  "qid": "Q747877",
+  "directors": [
+   "Kevin Smith"
+  ],
+  "cast": [
+   "Brian O'Halloran",
+   "Jeff Anderson",
+   "Marilyn Ghigliotti",
+   "Lisa Spoonauer",
+   "Jason Mewes",
+   "Kevin Smith",
+   "Thomas Burke",
+   "Ken Clark"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/65/Clerks_movie_poster%3B_Just_because_they_serve_you_---_.jpg",
+  "synopsis": "Clerks : Les Employés modèles ou Commis en folie au Québec (Clerks) est un film américain de Kevin Smith et sorti en 1994. C'est le premier film d'un univers de fiction plus tard View Askewniverse.\nTourné pour un budget dérisoire, le film reçoit des critiques globalement positives et connaît un petit succès.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Clerks_%3A_Les_Employ%C3%A9s_mod%C3%A8les"
  },
  "the-blair-witch-project": {
-  "checkedAt": "2026-09-15T21:13:53.009Z"
+  "checkedAt": "2026-09-16T05:46:08.497Z",
+  "qid": "Q644554",
+  "directors": [
+   "Eduardo Sánchez",
+   "Daniel Myrick"
+  ],
+  "cast": [
+   "Heather Donahue",
+   "Michael C. Williams",
+   "Joshua Leonard",
+   "Jim King"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/26/Blair_Witch_Project.jpg",
+  "synopsis": "Le Projet Blair Witch (The Blair Witch Project), ou Le Projet Blair au Québec, est un film d'horreur indépendant américain de genre « found footage » écrit et réalisé par Daniel Myrick et Eduardo Sánchez, sorti en 1999.\nJouant sur la tension psychologique et l'imagination du spectateur, plutôt que sur les effets spéciaux coûteux, ce long métrage est le deuxième film le plus rentable de l'histoire, avec un budget de 60 000 $ pour une recette au box-office mondial de 248 639 099 $, soit un retour sur investissement de 414 300 %.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Projet_Blair_Witch"
  },
  "welcome-to-the-dollhouse": {
-  "checkedAt": "2026-09-15T21:13:59.458Z"
+  "checkedAt": "2026-09-16T05:46:08.710Z",
+  "qid": "Q2565420",
+  "directors": [
+   "Todd Solondz"
+  ],
+  "cast": [
+   "Heather Matarazzo",
+   "Brendan Sexton III",
+   "Eric Mabius",
+   "Christina Vidal",
+   "Ken Leung",
+   "Angela Pietropinto",
+   "Bill Buell"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/1e/Welcome_to_the_Dollhouse_film_poster.png",
+  "synopsis": "Bienvenue dans l'âge ingrat (Welcome to the Dollhouse) est un film américain réalisé par Todd Solondz, sorti en 1995.\nLe film a remporté le Grand Prix du jury du Festival du film de Sundance en 1996.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bienvenue_dans_l'%C3%A2ge_ingrat"
  },
  "ju-dou": {
   "checkedAt": "2026-09-15T21:14:01.627Z",
@@ -12459,7 +12907,24 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Un_v%C3%A9ritable_humain"
  },
  "el-abrazo-partido": {
-  "checkedAt": "2026-09-15T21:14:34.040Z"
+  "checkedAt": "2026-09-16T05:48:01.553Z",
+  "qid": "Q1532274",
+  "directors": [
+   "Daniel Burman"
+  ],
+  "cast": [
+   "Daniel Hendler",
+   "Adriana Aizemberg",
+   "Sergio Boris",
+   "Silvina Bosco",
+   "Jorge D'Elía",
+   "Melina Petriella",
+   "Atilio Pozzobón",
+   "Mónica Cabrera"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/71/ElAbrazoPartido.jpg",
+  "synopsis": "Le Fils d'Elias (El abrazo partido) est un film franco-italo-hispano-argentin réalisé par Daniel Burman, sorti en 2004.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Fils_d'Elias"
  },
  "nueve-reinas": {
   "checkedAt": "2026-09-15T21:14:08.723Z",
@@ -12519,6 +12984,2024 @@
   "wikiUrl": "https://fr.wikipedia.org/wiki/Contes_de_l'%C3%82ge_d'Or"
  },
  "boogie-2008": {
-  "checkedAt": "2026-09-15T21:15:06.852Z"
+  "checkedAt": "2026-09-16T05:49:12.646Z"
+ },
+ "flat-is-beautiful": {
+  "checkedAt": "2026-09-16T05:42:02.494Z",
+  "qid": "Q11333553",
+  "directors": [],
+  "cast": []
+ },
+ "decasia": {
+  "checkedAt": "2026-09-16T05:42:02.673Z",
+  "qid": "Q5248750",
+  "directors": [
+   "Bill Morrison"
+  ],
+  "cast": [],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/ba/Decasia_dvd.jpg",
+  "synopsis": "Decasia est un film collage américain écrit et réalisé par Bill Morrison, sorti en 2002 et comportant une musique originale de Michael Gordon. En 2013, Decasia a été inclus dans la sélection annuelle de 25 films cinématographiques du National Film Registry de la Bibliothèque du Congrès comme étant « culturellement, historiquement ou esthétiquement significatifs ».",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Decasia"
+ },
+ "13-lakes": {
+  "checkedAt": "2026-09-16T05:42:02.989Z",
+  "qid": "Q27590061",
+  "directors": [
+   "James Benning"
+  ],
+  "cast": [],
+  "synopsis": "13 Lakes is a 2004 American experimental film by independent filmmaker James Benning. Consisting of 13 ten-minute-long static shots of different lakes in the United States, 13 Lakes is an instance of slow cinema, placing emphasis on introspection and contemplation. Shot on 16 mm film, 13 Lakes had its world premiere at the Vienna International Film Festival on October 20, 2004.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/13_Lakes"
+ },
+ "sink-or-swim": {
+  "checkedAt": "2026-09-16T05:42:05.451Z"
+ },
+ "il-posto": {
+  "checkedAt": "2026-09-16T05:42:05.074Z",
+  "qid": "Q1962870",
+  "directors": [
+   "Ermanno Olmi"
+  ],
+  "cast": [
+   "Tullio Kezich"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/20/Il_Posto_DVD.jpg",
+  "synopsis": "Il posto, English titles The Job or The Sound of Trumpets, is a 1961 Italian comedy-drama film directed by Ermanno Olmi, his second feature film. Screened at the 1961 Venice Film Festival, it received numerous national and international awards. \"",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Il_Posto"
+ },
+ "salvatore-giuliano": {
+  "checkedAt": "2026-09-16T05:42:05.382Z",
+  "qid": "Q1783832",
+  "directors": [
+   "Francesco Rosi"
+  ],
+  "cast": [
+   "Salvo Randone",
+   "Frank Wolff",
+   "Nando Cicero",
+   "Sennuccio Benelli",
+   "Max Cartier"
+  ],
+  "synopsis": "Salvatore Giuliano est un film italien réalisé par Francesco Rosi et sorti en 1962. C'est un film biographique sur le mafioso sicilien Salvatore Giuliano.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Salvatore_Giuliano_(film)"
+ },
+ "i-pugni-in-tasca": {
+  "checkedAt": "2026-09-16T05:42:06.589Z",
+  "qid": "Q2704744",
+  "directors": [
+   "Marco Bellocchio"
+  ],
+  "cast": [
+   "Lou Castel",
+   "Paola Pitagora",
+   "Marino Masè",
+   "Liliana Gerace"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/26/Fists_in_the_pocket_DVD.jpg",
+  "synopsis": "Les Poings dans les poches (titre original  : I pugni in tasca) est un film italien de Marco Bellocchio, sorti en 1965.\nAvec Prima della rivoluzione, Les Poings dans les poches est considéré comme un film précurseur des mouvements sociaux de 1968.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Les_Poings_dans_les_poches"
+ },
+ "ultimo-tango-a-parigi": {
+  "checkedAt": "2026-09-16T05:42:07.553Z",
+  "qid": "Q570567",
+  "directors": [
+   "Bernardo Bertolucci"
+  ],
+  "cast": [
+   "Marlon Brando",
+   "Maria Schneider",
+   "Jean-Pierre Léaud",
+   "Massimo Girotti",
+   "Marie-Hélène Breillat",
+   "Catherine Allégret",
+   "Veronica Lazar",
+   "Catherine Breillat"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d5/LastTango.jpg",
+  "synopsis": "Le Dernier Tango à Paris (titre original : Ultimo tango a Parigi) est un drame psychologique italo-français réalisé par Bernardo Bertolucci et sorti en 1972.\nLe film raconte l'histoire d'un Américain (Marlon Brando) et d'une jeune Française (Maria Schneider) qui se retrouvent dans un appartement parisien pour discuter et faire l'amour. L'œuvre a polarisé la critique, certaines scènes de sexe ayant été jugées inacceptables et humiliantes.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Dernier_Tango_%C3%A0_Paris"
+ },
+ "il-conformista": {
+  "checkedAt": "2026-09-16T05:42:07.546Z",
+  "qid": "Q1198812",
+  "directors": [
+   "Bernardo Bertolucci"
+  ],
+  "cast": [
+   "Jean-Louis Trintignant",
+   "Stefania Sandrelli",
+   "Dominique Sanda",
+   "Gastone Moschin",
+   "Pierre Clémenti",
+   "Enzo Tarascio",
+   "José Quaglio",
+   "Fosco Giachetti"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/78/The_Conformist_poster.jpg",
+  "synopsis": "Le Conformiste (titre original : Il conformista) est un film franco-ouest-germano-italien réalisé par Bernardo Bertolucci, sorti en 1970.\nLe scénario de ce film politique est écrit par Bertolucci d'après le roman Le Conformiste (Il conformista) d'Alberto Moravia publié en 1951. Les rôles principaux du film sont tenus par Jean-Louis Trintignant, Dominique Sanda et Stefania Sandrelli.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Conformiste_(film)"
+ },
+ "padre-padrone": {
+  "checkedAt": "2026-09-16T05:42:08.035Z",
+  "qid": "Q527598",
+  "directors": [
+   "Paolo Taviani",
+   "Vittorio Taviani"
+  ],
+  "cast": [
+   "Omero Antonutti",
+   "Saverio Marconi",
+   "Marcella Michelangeli",
+   "Stanko Molnar",
+   "Nanni Moretti",
+   "Gavino Ledda"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e5/Padre_padrone1.jpg",
+  "synopsis": "Padre padrone (litt. Père-patron) est un film italien réalisé par Paolo Taviani et Vittorio Taviani, sorti en 1977, adapté du roman de Gavino Ledda Padre padrone: l'educazione di un pastore.\nLe film se déroule à Siligo (Logudoro) et a été tourné à une courte distance à Cargeghe et dans les environs.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Padre_padrone"
+ },
+ "pasqualino-settebellezze": {
+  "checkedAt": "2026-09-16T05:42:08.093Z",
+  "qid": "Q1634805",
+  "directors": [
+   "Lina Wertmüller"
+  ],
+  "cast": [
+   "Giancarlo Giannini",
+   "Fernando Rey",
+   "Shirley Stoler",
+   "Elena Fiore",
+   "Roberto Herlitzka",
+   "Piero Di Iorio",
+   "Lucio Amelio",
+   "Ermelinda De Felice"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/3/3c/Pasqualino_Settebellezze_1975_film_poster.jpg",
+  "synopsis": "Pasqualino (Pasqualino Settebellezze) est un film italien réalisé par Lina Wertmüller, sorti en 1975. Il met en vedette Giancarlo Giannini.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Pasqualino"
+ },
+ "jeanne-dielman": {
+  "checkedAt": "2026-09-16T05:42:08.604Z",
+  "qid": "Q1686012",
+  "directors": [
+   "Chantal Akerman"
+  ],
+  "cast": [
+   "Delphine Seyrig",
+   "Jacques Doniol-Valcroze",
+   "Chantal Akerman",
+   "Jan Decorte",
+   "Henri Storck"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/0/05/JeanneDielman.png",
+  "synopsis": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles est un film franco-belge de Chantal Akerman, réalisé en 1975. Il est le plus souvent désigné sous le titre Jeanne Dielman.\nLe film montre les tâches quotidiennes, répétitives et aliénantes, d'une femme, veuve et mère d'un lycéen.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Jeanne_Dielman%2C_23%2C_quai_du_Commerce%2C_1080_Bruxelles"
+ },
+ "les-rendez-vous-d-anna": {
+  "checkedAt": "2026-09-16T05:42:08.773Z",
+  "qid": "Q3235132",
+  "directors": [
+   "Chantal Akerman"
+  ],
+  "cast": [
+   "Alain Berenboom",
+   "Aurore Clément",
+   "Hanns Zischler",
+   "Helmut Griem",
+   "Jean-Pierre Cassel",
+   "Lea Massari",
+   "Magali Noël",
+   "Françoise Bonnet"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b2/Les_Rendez-vous_d%27Anna_poster.png",
+  "synopsis": "Les Rendez-vous d'Anna  est un film belgo-ouest-germano-français de Chantal Akerman sorti en 1978.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Les_Rendez-vous_d'Anna"
+ },
+ "gangs-of-wasseypur": {
+  "checkedAt": "2026-09-16T05:42:35.175Z"
+ },
+ "court-2014": {
+  "checkedAt": "2026-09-16T05:42:35.559Z"
+ },
+ "village-rockstars": {
+  "checkedAt": "2026-09-16T05:42:47.984Z"
+ },
+ "the-disciple": {
+  "checkedAt": "2026-09-16T05:42:54.170Z"
+ },
+ "all-that-breathes": {
+  "checkedAt": "2026-09-16T05:43:00.594Z"
+ },
+ "all-we-imagine-as-light": {
+  "checkedAt": "2026-09-16T05:43:01.383Z",
+  "qid": "Q125422662",
+  "directors": [
+   "Payal Kapadia"
+  ],
+  "cast": [
+   "Kani Kusruti",
+   "Divya Prabha",
+   "Chhaya Kadam"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/1c/All_We_Imagine_as_Light_film_poster.jpg",
+  "synopsis": "All We Imagine as Light est un film franco-indo-italo-luxembourgo-néerlandais réalisé par Payal Kapadia et sorti en 2024. Il s'agit du premier long métrage de fiction de la réalisatrice, qui avait auparavant réalisé des courts métrages et un long métrage documentaire.\nLe film, divisé en deux parties, a pour sujets la société et le féminisme en Inde.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/All_We_Imagine_as_Light"
+ },
+ "la-vie-sur-terre": {
+  "checkedAt": "2026-09-16T05:43:01.728Z",
+  "qid": "Q4180248",
+  "directors": [
+   "Abderrahmane Sissako"
+  ],
+  "cast": [
+   "Abderrahmane Sissako"
+  ],
+  "synopsis": "La Vie sur terre est une comédie dramatique franco-mauritano-malienne réalisée par Abderrahmane Sissako en 1998 dans le cadre de la collection 2000 vu par... et diffusée sur Arte, puis sorti au cinéma.\nLe film a gagné de nombreux prix au Festival international de films de Fribourg, au Festival panafricain du cinéma et de la télévision de Ouagadougou et au Festival international du film de San Francisco.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/La_Vie_sur_terre"
+ },
+ "timbuktu": {
+  "checkedAt": "2026-09-16T05:43:02.439Z",
+  "qid": "Q16653473",
+  "directors": [
+   "Abderrahmane Sissako"
+  ],
+  "cast": [
+   "Abel Jafri",
+   "Hichem Yacoubi",
+   "Toulou Kiki",
+   "Fatoumata Diawara",
+   "Ibrahim Ahmed dit Pino"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/7d/Timbuktu_poster.jpg",
+  "synopsis": "Timbuktu, parfois sous-titré Le Chagrin des oiseaux, est un film dramatique franco-mauritanien, réalisé par Abderrahmane Sissako, sorti en 2014.\nLe film est d'abord présenté en sélection officielle au festival de Cannes 2014, où il est le seul long métrage africain en compétition et où il remporte le Prix du jury œcuménique et le Prix François-Chalais récompensant les valeurs du journalisme. Il est ensuite récompensé par sept César en 2015, dont ceux du meilleur film et du meilleur réalisateur.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Timbuktu_(film)"
+ },
+ "la-pirogue": {
+  "checkedAt": "2026-09-16T05:43:02.178Z",
+  "qid": "Q3211653",
+  "directors": [
+   "Moussa Touré"
+  ],
+  "cast": [
+   "Souleymane Sèye Ndiaye"
+  ],
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Affiche_207_La_pirogue_Fr.jpg/500px-Affiche_207_La_pirogue_Fr.jpg",
+  "synopsis": "La Pirogue est un film franco-sénégalais réalisé par Moussa Touré, sorti en 2012. Le film a concouru dans la catégorie Un certain regard du Festival de Cannes .",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/La_Pirogue"
+ },
+ "un-homme-qui-crie": {
+  "checkedAt": "2026-09-16T05:43:02.037Z",
+  "qid": "Q781927",
+  "directors": [
+   "Mahamat Saleh Haroun"
+  ],
+  "cast": [
+   "Youssouf Djaoro",
+   "Diouc Koma",
+   "Emil Abossolo-Mbo",
+   "Hadjé Fatimé N'Goua",
+   "Marius Yelolo",
+   "Heling Li",
+   "Rémadji Adèle Ngaradoumbaye",
+   "John Mbaiedoum"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d5/Un_Homme_qui_crie_affiche.jpg",
+  "synopsis": "Un homme qui crie est un film franco-belgo-tchadien réalisé par Mahamat Saleh Haroun sorti en 2010. Il est sélectionné en compétition officielle pour le Festival de Cannes 2010, où il a remporté le Prix du Jury.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Un_homme_qui_crie"
+ },
+ "felicite": {
+  "checkedAt": "2026-09-16T05:43:03.889Z",
+  "qid": "Q28222427",
+  "directors": [
+   "Alain Gomis"
+  ],
+  "cast": [
+   "Véro Tshanda Beya Mputu",
+   "Gaetan Claudia",
+   "Papi Mpaka"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/12/F%C3%A9licit%C3%A9_%282017_film%29.jpg",
+  "synopsis": "Félicité est un long métrage réalisé par Alain Gomis, sorti en 2017. C'est une coproduction franco-belgo-germano-sénégalo-libanaise.\nLe film est présenté en première mondiale en sélection officielle à la Berlinale 2017 où il remporte le grand prix du jury.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/F%C3%A9licit%C3%A9_(film%2C_2017)"
+ },
+ "atlantics": {
+  "checkedAt": "2026-09-16T05:43:04.744Z",
+  "qid": "Q63212985",
+  "directors": [
+   "Mati Diop"
+  ],
+  "cast": [
+   "Ibrahima Traore",
+   "Mame Bineta Sane",
+   "Amadou Mbow",
+   "Diankou Sembene"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/0/09/Atlantics_2019_film_poster.jpg",
+  "synopsis": "Atlantique est un film dramatique franco-belgo-sénégalais réalisé par Mati Diop, sorti en 2019. Il est présenté en compétition officielle lors du Festival de Cannes 2019, où il remporte le Grand prix.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Atlantique_(film)"
+ },
+ "lingui": {
+  "checkedAt": "2026-09-16T05:43:05.015Z",
+  "qid": "Q107117628",
+  "directors": [
+   "Mahamat Saleh Haroun"
+  ],
+  "cast": [
+   "Youssouf Djaoro",
+   "Rihane Khalil Alio",
+   "Q109636992"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/c/cf/Lingui%2C_The_Sacred_Bonds.jpeg",
+  "synopsis": "Lingui, les liens sacrés est un film tchadien réalisé par Mahamat Saleh Haroun, sorti en 2021. Il est présenté en compétition au festival de Cannes 2021.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Lingui%2C_les_liens_sacr%C3%A9s"
+ },
+ "augure": {
+  "checkedAt": "2026-09-16T05:43:05.269Z",
+  "qid": "Q122547783",
+  "directors": [
+   "Baloji"
+  ],
+  "cast": [
+   "Marc Zinga",
+   "Lucie Debay",
+   "Eliane Umuhire"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Omen_%282023_film%29_poster.jpg",
+  "synopsis": "Omen (French: Augure, lit. 'Augury') is a 2023 drama film written and directed by Belgian-Congolese director Baloji. Starring Marc Zinga, Lucie Debay and Eliane Umuhire, it premiered at Cannes in the Un Certain Regard  section on 23 May 2023, where it won the New Voice Prize.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Omen_(2023_film)"
+ },
+ "les-amants": {
+  "checkedAt": "2026-09-16T05:43:07.766Z",
+  "qid": "Q1214543",
+  "directors": [
+   "Louis Malle"
+  ],
+  "cast": [
+   "Jeanne Moreau",
+   "Gaston Modot",
+   "Alain Cuny",
+   "José Luis de Vilallonga",
+   "Judith Magre",
+   "Jean-Marc Bory",
+   "Michèle Girardon",
+   "Jean-Claude Brialy"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b3/Lovers_poster.jpg",
+  "synopsis": "Les Amants est un film dramatique et psychologique français de Louis Malle, sorti en 1958 avec Jeanne Moreau dans le rôle principal.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Les_Amants_(film%2C_1958)"
+ },
+ "ex-libris": {
+  "checkedAt": "2026-09-16T05:43:29.256Z"
+ },
+ "in-jackson-heights": {
+  "checkedAt": "2026-09-16T05:43:35.407Z"
+ },
+ "zazie-dans-le-metro": {
+  "checkedAt": "2026-09-16T05:43:09.223Z",
+  "qid": "Q167905",
+  "directors": [
+   "Louis Malle"
+  ],
+  "cast": [
+   "Catherine Demongeot",
+   "Philippe Noiret",
+   "Carla Marlier",
+   "Hubert Deschamps",
+   "Jacques Dufilho",
+   "Annie Fratellini",
+   "Vittorio Caprioli",
+   "Yvonne Clech"
+  ]
+ },
+ "city-hall": {
+  "checkedAt": "2026-09-16T05:43:41.812Z"
+ },
+ "el-castillo-de-la-pureza": {
+  "checkedAt": "2026-09-16T05:44:02.137Z",
+  "qid": "Q1757947",
+  "directors": [
+   "Arturo Ripstein"
+  ],
+  "cast": [
+   "Claudio Brook",
+   "Diana Bracho",
+   "María Rojo",
+   "Arturo Beristáin",
+   "Q3018788",
+   "Q6109133"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b2/The_Castle_of_Purity_Poster.jpg",
+  "synopsis": "Le Château de la pureté (El castillo de la pureza) est un film mexicain réalisé par Arturo Ripstein, sorti en 1973.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Ch%C3%A2teau_de_la_puret%C3%A9"
+ },
+ "el-lugar-sin-limites": {
+  "checkedAt": "2026-09-16T05:44:02.572Z",
+  "qid": "Q3008265",
+  "directors": [
+   "Arturo Ripstein"
+  ],
+  "cast": [
+   "Lucha Villa",
+   "Ana Martín",
+   "Fernando Soler",
+   "Julián Pastor",
+   "Roberto Cobo",
+   "Gonzalo Vega",
+   "Carmen Salinas",
+   "Q5831517"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e9/El_lugar_sin_limites%2C_film_poster.jpg",
+  "synopsis": "Ce lieu sans limites (El lugar sin límites) est un film mexicain réalisé par Arturo Ripstein, sorti en 1978. Il s'agit d'une adaptation du roman homonyme de José Donoso.\nEn juillet 1994, le film est sélectionné en 9e position dans la liste établie par la revue Somos des 100 meilleurs films mexicains de tous les temps.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ce_lieu_sans_limites_(film)"
+ },
+ "dr-strangelove": {
+  "checkedAt": "2026-09-16T05:44:07.477Z",
+  "qid": "Q105702",
+  "directors": [
+   "Stanley Kubrick"
+  ],
+  "cast": [
+   "Peter Sellers",
+   "George C. Scott",
+   "Sterling Hayden",
+   "Keenan Wynn",
+   "Slim Pickens",
+   "James Earl Jones",
+   "Peter Bull",
+   "Jack Creley"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e6/Dr._Strangelove_poster.jpg",
+  "synopsis": "Docteur Folamour ou : comment j'ai appris à ne plus m'en faire et à aimer la bombe (Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb) est une comédie militaire et satirique sortie en 1964 et réalisée par Stanley Kubrick d'après le thriller 120 minutes pour sauver le monde, écrit par Peter George sous le pseudonyme de Peter Bryant. L'acteur principal du film, Peter Sellers, y tient trois rôles distincts.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Docteur_Folamour"
+ },
+ "a-clockwork-orange": {
+  "checkedAt": "2026-09-16T05:44:08.227Z",
+  "qid": "Q181086",
+  "directors": [
+   "Stanley Kubrick"
+  ],
+  "cast": [
+   "Patrick Magee",
+   "Adrienne Corri",
+   "Miriam Karlin",
+   "Godfrey Quigley",
+   "Anthony Sharp",
+   "Warren Clarke",
+   "Malcolm McDowell",
+   "Michael Tarn"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/73/A_Clockwork_Orange_%281971%29.png",
+  "synopsis": "Orange mécanique (A Clockwork Orange) est un film d'anticipation britannico-américain écrit et réalisé par Stanley Kubrick, sorti sur les écrans en 1971.\nAdapté du roman d'Anthony Burgess, L'Orange mécanique (A Clockwork Orange dans son édition originale britannique de 1962), il doit être classé dans les films d'anticipation, mais peut également se voir comme une satire de la société moderne. Ici, c'est la vision d'une cité urbaine où les jeunes ont pris le pouvoir qui est présentée au spectateur.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Orange_m%C3%A9canique"
+ },
+ "barry-lyndon": {
+  "checkedAt": "2026-09-16T05:44:08.271Z",
+  "qid": "Q471716",
+  "directors": [
+   "Stanley Kubrick"
+  ],
+  "cast": [
+   "Hardy Krüger",
+   "Ryan O'Neal",
+   "Marisa Berenson",
+   "Steven Berkoff",
+   "Patrick Magee",
+   "Gay Hamilton",
+   "Godfrey Quigley",
+   "Diana Körner"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/ee/Barry_Lyndon_A.jpg",
+  "synopsis": "Barry Lyndon est un film historique anglo-américain écrit et réalisé par Stanley Kubrick et sorti en 1975. Il est adapté des Mémoires de Barry Lyndon, roman picaresque de William Makepeace Thackeray.\nAvec dans les rôles principaux Ryan O'Neal et Marisa Berenson, le film évoque le destin d'un jeune intrigant irlandais sans le sou dans la fastueuse société anglaise du XVIIIe siècle, de son ascension sociale pleine d'audace et de perversité après avoir épousé une lady qui lui apporte une fortune considérable et lui donne un fils, jusqu'à sa déchéance finale.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Barry_Lyndon"
+ },
+ "2001-a-space-odyssey": {
+  "checkedAt": "2026-09-16T05:44:08.306Z",
+  "qid": "Q103474",
+  "directors": [
+   "Stanley Kubrick"
+  ],
+  "cast": [
+   "Keir Dullea",
+   "Gary Lockwood",
+   "William Sylvester",
+   "Leonard Rossiter",
+   "Margaret Tyzack",
+   "Robert Beatty",
+   "Sean Sullivan",
+   "Douglas Rain"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/11/2001_A_Space_Odyssey_%281968%29.png",
+  "synopsis": "2001, l'Odyssée de l'espace (2001: A Space Odyssey) est un film britannico-américain de science-fiction réalisé par Stanley Kubrick, sorti en 1968.\nLe scénario du film, coécrit par Kubrick et le romancier Arthur C. Clarke, s'inspire de deux nouvelles de Clarke, À l'aube de l'histoire et La Sentinelle.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/2001%2C_l'Odyss%C3%A9e_de_l'espace"
+ },
+ "the-shining": {
+  "checkedAt": "2026-09-16T05:44:09.085Z",
+  "qid": "Q186341",
+  "directors": [
+   "Stanley Kubrick"
+  ],
+  "cast": [
+   "Jack Nicholson",
+   "Shelley Duvall",
+   "Danny Lloyd",
+   "Scatman Crothers",
+   "Barry Nelson",
+   "Philip Stone",
+   "Joe Turkel",
+   "Tony Burton"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg",
+  "synopsis": "Shining ([ ʃaɪnɪŋ] ) (The Shining), ou Shining : L'Enfant lumière au Québec, est un film d'horreur psychologique américano-britannique de Stanley Kubrick, sorti en 1980.\nOnzième long métrage de Kubrick, le film est adapté du roman Shining, l'enfant lumière (1977) de l'écrivain américain Stephen King et met en vedette les acteurs Jack Nicholson, Shelley Duvall et Danny Lloyd dans les rôles principaux.\nLe film met en scène Jack Torrance, un écrivain ex-alcoolique et en panne d'inspiration, engagé pendant tout l'hiver comme gardien d'un grand hôtel isolé du Colorado, l'Hôtel Overlook, où il espère surmonter enfin son manque d'inspiration littéraire.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Shining_(film)"
+ },
+ "seed-of-the-sacred-fig": {
+  "checkedAt": "2026-09-16T05:44:42.545Z"
+ },
+ "black-panther": {
+  "checkedAt": "2026-09-16T05:44:48.775Z"
+ },
+ "a-hero": {
+  "checkedAt": "2026-09-16T05:44:48.931Z"
+ },
+ "holy-spider": {
+  "checkedAt": "2026-09-16T05:44:48.973Z"
+ },
+ "spider-verse": {
+  "checkedAt": "2026-09-16T05:45:02.574Z",
+  "qid": "Q29588607",
+  "directors": [
+   "Peter Ramsey",
+   "Rodney Rothman",
+   "Bob Persichetti"
+  ],
+  "cast": [],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png",
+  "synopsis": "Spider-Man: New Generation (Spider-Man: Into the Spider-Verse), ou Spider-Man : Dans le Spider-Verse au Québec, est un film d'animation américain en 3D réalisé par Peter Ramsey, Bob Persichetti et Rodney Rothman, sorti à Noël 2018.\nIl met en scène le personnage de Marvel Comics, Miles Morales, seconde incarnation de Spider-Man. Il est dédié à la mémoire de Stan Lee et Steve Ditko, créateurs de Spider-Man, morts quelques mois avant la sortie du film.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Spider-Man%3A_New_Generation"
+ },
+ "avatar-way-of-water": {
+  "checkedAt": "2026-09-16T05:45:03.004Z",
+  "qid": "Q3604746",
+  "directors": [
+   "Q42574"
+  ],
+  "cast": [
+   "Q82085",
+   "Zoë Saldaña",
+   "Sigourney Weaver",
+   "Joel Moore",
+   "Stephen Lang",
+   "Q202765",
+   "Cliff Curtis",
+   "Q236434"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg",
+  "synopsis": "Avatar : La Voie de l'eau (Avatar: The Way of Water) est un film de science-fiction américain réalisé par James Cameron, sorti en 2022.\nJames Cameron a coécrit le scénario avec Rick Jaffa et Amanda Silver, à partir d'une histoire que le trio a développée avec Josh Friedman et Shane Salerno. Produit par les sociétés Lightstorm Entertainment et TSG Entertainment et distribué par The Walt Disney Company par le biais de 20th Century Studios, il s'agit de la suite du premier film de la franchise Avatar.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Avatar_%3A_La_Voie_de_l'eau"
+ },
+ "oppenheimer": {
+  "checkedAt": "2026-09-16T05:45:03.197Z",
+  "qid": "Q108839994",
+  "directors": [
+   "Q25191"
+  ],
+  "cast": [
+   "Cillian Murphy",
+   "Q165219",
+   "Matt Damon",
+   "Emily Blunt",
+   "Florence Pugh",
+   "Rami Malek",
+   "Benny Safdie",
+   "Josh Hartnett"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
+  "synopsis": "Oppenheimer est un film britannico-américain écrit, produit et réalisé par Christopher Nolan, sorti en 2023.\nIl s'agit d'un film biographique et d'une adaptation du livre Robert Oppenheimer : Triomphe et tragédie d'un génie (2005) de Kai Bird et Martin J. Sherwin sur Robert Oppenheimer, régulièrement surnommé le « père de la bombe atomique ».",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Oppenheimer_(film)"
+ },
+ "barbie": {
+  "checkedAt": "2026-09-16T05:45:03.274Z",
+  "qid": "Q55436290",
+  "directors": [
+   "Greta Gerwig"
+  ],
+  "cast": [
+   "Ryan Gosling",
+   "America Ferrera",
+   "Simu Liu",
+   "Kate McKinnon",
+   "Alexandra Shipp",
+   "Emma Mackey",
+   "Kingsley Ben-Adir",
+   "Issa Rae"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg",
+  "synopsis": "Barbie est un film américano-britannique co-écrit et réalisé par Greta Gerwig, sorti en 2023.\nIl est basé sur la gamme de poupées du même nom de la société Mattel, qui produit d'ailleurs le film, et constitue la première production en prise de vues réelles issue de l'univers de la poupée après plusieurs longs métrages et séries télévisées d'animation.\nLe film réalise le meilleur démarrage de l’année 2023 aux États-Unis, et le meilleur démarrage de tous les temps pour un film réalisé par une femme, obtenant 155 millions de dollars sur le territoire américain pour son premier week-end de diffusion au cinéma.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Barbie_(film)"
+ },
+ "top-gun-maverick": {
+  "checkedAt": "2026-09-16T05:45:04.052Z",
+  "qid": "Q31202708",
+  "directors": [
+   "Joseph Kosinski"
+  ],
+  "cast": [
+   "Q37079",
+   "Val Kilmer",
+   "Jennifer Connelly",
+   "Miles Teller",
+   "Jon Hamm",
+   "Ed Harris",
+   "Glen Powell",
+   "Manny Jacinto"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
+  "synopsis": "Top Gun: Maverick est un film d'action américain réalisé par Joseph Kosinski, sorti en 2022. Il s’agit de la suite du film Top Gun de Tony Scott, sorti en 1986, dont l'action se déroulait principalement à Topgun, l'école de formation au combat aérien de la marine américaine. Il est présenté en avant-première au CinemaCon avant une présentation hors compétition au festival de Cannes 2022.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Top_Gun%3A_Maverick"
+ },
+ "cache": {
+  "checkedAt": "2026-09-16T05:45:06.123Z",
+  "qid": "Q383173",
+  "directors": [
+   "Michael Haneke"
+  ],
+  "cast": [
+   "Daniel Auteuil",
+   "Juliette Binoche",
+   "Annie Girardot",
+   "Aïssa Maïga",
+   "Maurice Bénichou",
+   "Bernard Le Coq",
+   "Caroline Baehr",
+   "Christian Benedetti"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/7b/Cache_Haneke.jpg",
+  "synopsis": "Caché est un film français réalisé par Michael Haneke et sorti en 2005. Ce long métrage a été primé au festival de Cannes 2005 pour sa mise en scène.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Cach%C3%A9"
+ },
+ "tout-sur-ma-mere": {
+  "checkedAt": "2026-09-16T05:45:06.245Z",
+  "qid": "Q329805",
+  "directors": [
+   "Pedro Almodóvar"
+  ],
+  "cast": [
+   "Penélope Cruz",
+   "Cecilia Roth",
+   "Marisa Paredes",
+   "Candela Peña",
+   "Antonia San Juan",
+   "Rosa Maria Sardà",
+   "Fernando Fernán Gómez",
+   "Cayetana Guillén Cuervo"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d7/All_about_my_mother.jpg",
+  "synopsis": "Tout sur ma mère (Todo sobre mi madre) est un film de comédie mélodramatique franco-espagnol écrit et réalisé par Pedro Almodóvar et produit par son frère Agustín Almodóvar, sorti en 1999.\nLe film est présenté en compétition officielle au Festival de Cannes 1999. Le film a été très bien reçu par la critique et le public, et a gagné l'Oscar du meilleur film international.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tout_sur_ma_m%C3%A8re"
+ },
+ "le-fils": {
+  "checkedAt": "2026-09-16T05:45:06.511Z",
+  "qid": "Q1196918",
+  "directors": [
+   "Jean-Pierre Dardenne",
+   "Luc Dardenne"
+  ],
+  "cast": [
+   "Olivier Gourmet",
+   "Morgan Marinne",
+   "Jimmy Deloof",
+   "Anne Gérard",
+   "Isabella Soupart",
+   "Rémy Renaud",
+   "Nassim Hassaïni",
+   "Kevin Leroy"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/69/The_Son_%28film%29_poster.jpg",
+  "synopsis": "The Son (French: Le Fils) is a 2002 mystery film directed by Jean-Pierre and Luc Dardenne. It revolves around the relationship between a Olivier, a solitary carpenter, and his  apprentice Francis, a troubled youth.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Son_(2002_film)"
+ },
+ "l-enfant": {
+  "checkedAt": "2026-09-16T05:45:06.740Z",
+  "qid": "Q466024",
+  "directors": [
+   "Luc Dardenne",
+   "Jean-Pierre Dardenne"
+  ],
+  "cast": [
+   "Jérémie Renier",
+   "Déborah François",
+   "Jérémie Segard",
+   "Olivier Gourmet",
+   "Samuel De Ryck",
+   "Fabrizio Rongione",
+   "Stéphane Bissot",
+   "Jean-Michel Balthazar"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b3/L%27Enfant_film.jpg",
+  "synopsis": "L'Enfant est un film belge réalisé par Jean-Pierre et Luc Dardenne, sorti en 2005.\nPour ce film, les frères Dardenne remportent leur seconde Palme d'or lors du festival de Cannes 2005, dans un contexte plus apaisé que pour celle obtenue six ans plus tôt avec Rosetta.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L'Enfant_(film%2C_2005)"
+ },
+ "la-grande-bellezza": {
+  "checkedAt": "2026-09-16T05:45:08.323Z",
+  "qid": "Q6379279",
+  "directors": [
+   "Paolo Sorrentino"
+  ],
+  "cast": [
+   "Toni Servillo",
+   "Carlo Verdone",
+   "Sabrina Ferilli",
+   "Carlo Buccirosso",
+   "Iaia Forte",
+   "Pamela Villoresi",
+   "Galatea Ranzi",
+   "Franco Graziosi"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/19/The_Great_Beauty_poster.jpg",
+  "synopsis": "La grande bellezza, titré La Grande Beauté au Québec, est un drame italien coécrit et réalisé par Paolo Sorrentino, sortie en 2013.\nLe film met en scène Jep Gambardella, incarné par Toni Servillo, un critique d'art désabusé qui s'adonne aux mondanités une fois la nuit venue. Nombreux sont ceux qui côtoient celui qui se voyait déjà « roi des mondains » dans sa jeunesse ; il est le confident d'un microcosme familier des soirées festives, de la chirurgie esthétique et de l'art contemporain.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/La_grande_bellezza"
+ },
+ "gomorra": {
+  "checkedAt": "2026-09-16T05:45:08.390Z",
+  "qid": "Q1165770",
+  "directors": [
+   "Matteo Garrone"
+  ],
+  "cast": [
+   "Toni Servillo",
+   "Gianfelice Imparato",
+   "Maria Nazionale",
+   "Gigio Morra",
+   "Ciro Petrone",
+   "Salvatore Ruocco",
+   "Italo Celoro",
+   "Bernardino Terracciano"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/e8/Gomorra_%282008_movie_poster%29.jpg",
+  "synopsis": "Gomorra est un film italien réalisé par Matteo Garrone sorti en 2008. Le film est tiré de l'œuvre de Roberto Saviano, Gomorra. Dans l'empire de la Camorra (Gomorra. Viaggio nell'impero economico e nel sogno di dominio della camorra).",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Gomorra_(film)"
+ },
+ "dogtooth": {
+  "checkedAt": "2026-09-16T05:45:09.163Z",
+  "qid": "Q1075918",
+  "directors": [
+   "Yórgos Lánthimos"
+  ],
+  "cast": [
+   "Christos Stergioglou",
+   "Michele Valley",
+   "Angeliki Papoulia",
+   "Mary Tsoni",
+   "Anna Kalaitzidou",
+   "Christos Passalis"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/a/a8/Dogtooth%282009%29_poster.jpg",
+  "synopsis": "Canine (Κυνόδοντας, Kynódontas)  est un drame psychologique grec co-écrit et réalisé par Yórgos Lánthimos, sorti en 2009.\nIl est nommé en 2010 pour l'Oscar du meilleur film en langue étrangère.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Canine_(film)"
+ },
+ "le-ruban-blanc": {
+  "checkedAt": "2026-09-16T05:45:09.127Z",
+  "qid": "Q158023",
+  "directors": [
+   "Michael Haneke"
+  ],
+  "cast": [
+   "Ulrich Tukur",
+   "Josef Bierbichler",
+   "Susanne Lothar",
+   "Ursina Lardi",
+   "Janina Fautz",
+   "Christian Friedel",
+   "Ernst Jacobi",
+   "Leonie Benesch"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d6/White_ribbon.jpg",
+  "synopsis": "Le Ruban blanc (titre original en allemand : Das weiße Band), sous-titré Eine deutsche Kindergeschichte (signifiant en français « Une histoire allemande d'enfants »), est un film franco-germano-italo-autrichien réalisé par Michael Haneke, sorti en 2009.\nIl est lauréat de la Palme d'or lors du Festival de Cannes 2009.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Ruban_blanc"
+ },
+ "force-majeure": {
+  "checkedAt": "2026-09-16T05:45:09.371Z",
+  "qid": "Q10706553",
+  "directors": [
+   "Ruben Östlund"
+  ],
+  "cast": [
+   "Q5564082",
+   "Lisa Loven Kongsli",
+   "Vincent Wettergren",
+   "Clara Wettergren",
+   "Kristofer Hivju",
+   "Fanni Metelius",
+   "Karin Myrenberg Faber",
+   "Brady Corbet"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/8/89/Force_Majeure_poster.jpg",
+  "synopsis": "Snow Therapy (Turist), également connu sous le titre Force majeure, est une comédie noire franco-suédoise écrit et réalisé par Ruben Östlund, sorti en 2014.\nLe film est sélectionné au festival de Cannes 2014 dans la section Un certain regard, où il remporte le prix du jury. Il est également sélectionné pour représenter la Suède à l'Oscar du meilleur film en langue étrangère aux Oscars du cinéma 2015.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Snow_Therapy"
+ },
+ "the-lobster": {
+  "checkedAt": "2026-09-16T05:45:09.699Z",
+  "qid": "Q16996794",
+  "directors": [
+   "Yórgos Lánthimos"
+  ],
+  "cast": [
+   "Colin Farrell",
+   "Rachel Weisz",
+   "Ben Whishaw",
+   "Léa Seydoux",
+   "John C. Reilly",
+   "Ashley Jensen",
+   "Olivia Colman",
+   "Jessica Barden"
+  ],
+  "synopsis": "The Lobster (grec moderne : Ο Αστακός litt. « Le Homard ») est un film irlando-anglo-néerlando-franco-grec réalisé et co-écrit par Yórgos Lánthimos, sorti en 2015.\nLe film se déroule dans un futur proche, où toute personne célibataire est obligatoirement internée à l'Hôtel et a 45 jours pour y trouver l'âme sœur.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/The_Lobster"
+ },
+ "triangle-of-sadness": {
+  "checkedAt": "2026-09-16T05:45:36.587Z"
+ },
+ "the-square": {
+  "checkedAt": "2026-09-16T05:45:10.685Z",
+  "qid": "Q27237522",
+  "directors": [
+   "Ruben Östlund"
+  ],
+  "cast": [
+   "Q5565254",
+   "Elisabeth Moss",
+   "Dominic West",
+   "Terry Notary",
+   "Sofie Hamilton",
+   "Q12306343",
+   "Johan Jonason",
+   "Stefan Gödicke"
+  ]
+ },
+ "dolor-y-gloria": {
+  "checkedAt": "2026-09-16T05:45:10.877Z",
+  "qid": "Q55609803",
+  "directors": [],
+  "cast": []
+ },
+ "les-chansons-d-amour": {
+  "checkedAt": "2026-09-16T05:45:49.421Z"
+ },
+ "poor-things": {
+  "checkedAt": "2026-09-16T05:46:02.192Z"
+ },
+ "the-zone-of-interest": {
+  "checkedAt": "2026-09-16T05:46:03.309Z"
+ },
+ "l-inconnu-du-lac": {
+  "checkedAt": "2026-09-16T05:46:02.935Z",
+  "qid": "Q12902822",
+  "directors": [
+   "Alain Guiraudie"
+  ],
+  "cast": [
+   "Pierre Deladonchamps",
+   "Christophe Paou",
+   "Patrick d'Assumçao",
+   "Jérôme Chappatte",
+   "Emmanuel Daumas",
+   "François Renaud Labarthe"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/5/59/Stranger_by_the_Lake_poster.jpg",
+  "synopsis": "L'Inconnu du lac est un film dramatique français écrit et réalisé par Alain Guiraudie, sorti en 2013.\nIl est d'abord présenté au Festival de Cannes dans la catégorie « Un certain regard », le 17 mai 2013 avant d'être distribué en salles à partir du 12 juin 2013.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L'Inconnu_du_lac"
+ },
+ "portrait-jeune-fille-en-feu": {
+  "checkedAt": "2026-09-16T05:46:02.879Z",
+  "qid": "Q63246568",
+  "directors": [
+   "Céline Sciamma"
+  ],
+  "cast": [
+   "Adèle Haenel",
+   "Noémie Merlant",
+   "Valeria Golino",
+   "Luàna Bajrami",
+   "Armande Boulanger",
+   "Christel Baras"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/c/cb/Portrait_of_a_Lady_on_Fire.jpg",
+  "synopsis": "Portrait de la jeune fille en feu est un drame romantique français écrit et réalisé par Céline Sciamma, sorti en 2019. Il s'agit du quatrième long-métrage et du premier film en costumes de la cinéaste. Il raconte une histoire d'amour lesbienne au XVIIIe siècle en Bretagne entre Héloïse, une jeune femme de la noblesse, et Marianne, une peintre chargée de dessiner le portrait d'Héloïse pour un noble milanais qu'elle doit épouser.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Portrait_de_la_jeune_fille_en_feu"
+ },
+ "l-avenir": {
+  "checkedAt": "2026-09-16T05:46:03.103Z",
+  "qid": "Q20814850",
+  "directors": [
+   "Mia Hansen-Løve"
+  ],
+  "cast": [
+   "Isabelle Huppert",
+   "André Marcon",
+   "Édith Scob",
+   "Roman Kolinka",
+   "Solal Forte"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d2/L%27Avenir.jpg",
+  "synopsis": "L'Avenir est un film franco-allemand réalisé par Mia Hansen-Løve et sorti en 2016.\nLe film est présenté en sélection officielle à la Berlinale 2016 où la réalisatrice remporte l'Ours d'argent.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L'Avenir_(film)"
+ },
+ "un-evenement": {
+  "checkedAt": "2026-09-16T05:46:03.409Z",
+  "qid": "Q107675028",
+  "directors": [
+   "Audrey Diwan"
+  ],
+  "cast": [
+   "Pio Marmaï",
+   "Sandrine Bonnaire",
+   "Anna Mouglalis",
+   "Luàna Bajrami",
+   "Kacey Mottet-Klein",
+   "Anamaria Vartolomei"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/8/8e/Happening_%282021%29_film_poster.jpg",
+  "synopsis": "L'Événement est un film français réalisé par Audrey Diwan, sorti en 2021.\nC'est l'adaptation du roman éponyme d'Annie Ernaux, paru en 2000.\nIl remporte le Lion d'or à la 78e édition de la Mostra de Venise.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/L'%C3%89v%C3%A9nement_(film)"
+ },
+ "titane": {
+  "checkedAt": "2026-09-16T05:46:04.169Z",
+  "qid": "Q105393862",
+  "directors": [
+   "Julia Ducournau"
+  ],
+  "cast": [
+   "Agathe Rousselle",
+   "Vincent Lindon",
+   "Nathalie Boyer",
+   "Myriem Akheddiou",
+   "Garance Marillier",
+   "Dominique Frot"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/0/01/Titane_poster.jpeg",
+  "synopsis": "Titane est un film franco-belge, écrit et réalisé par Julia Ducournau, sorti en 2021.\nLe film suit Alexia, gravement blessée dans un accident de la route alors qu'elle était enfant, qui est sauvée par la pose d'un implant en titane dans son crâne. Vers l'âge de 30 ans, elle devient danseuse érotique dans des rassemblements de tuning interlopes et elle vit toujours chez ses parents.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Titane_(film)"
+ },
+ "petite-maman": {
+  "checkedAt": "2026-09-16T05:46:05.189Z",
+  "qid": "Q105438136",
+  "directors": [
+   "Céline Sciamma"
+  ],
+  "cast": [
+   "Nina Meurisse",
+   "Margot Abascal",
+   "Stéphane Varupenne"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/10/Petite_Maman_poster.jpeg",
+  "synopsis": "Petite Maman est un film français réalisé par Céline Sciamma et sorti en 2021.\nLe film est présenté en avant-première à la Berlinale 2021.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Petite_Maman_(film%2C_2021)"
+ },
+ "anatomie-d-une-chute": {
+  "checkedAt": "2026-09-16T05:46:05.295Z",
+  "qid": "Q117037697",
+  "directors": [
+   "Justine Triet"
+  ],
+  "cast": [
+   "Sandra Hüller",
+   "Swann Arlaud",
+   "Milo Machado-Graner",
+   "Antoine Reinartz",
+   "Samuel Theis",
+   "Jehnny Beth",
+   "Camille Rutherford",
+   "Anne Rotger"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/8/88/Anatomy_of_a_Fall_%282023%29_film_poster.jpg",
+  "synopsis": "Anatomie d'une chute est un drame français coécrit et réalisé par Justine Triet, sorti en 2023.\nLe film est présenté pour la première fois dans le cadre de la « compétition officielle » du Festival de Cannes 2023 et obtient la Palme d'or — Justine Triet devenant la troisième femme à remporter cette prestigieuse récompense.\nLe film obtient, par la suite, de nombreuses récompenses et nominations.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Anatomie_d'une_chute"
+ },
+ "frere-et-soeur": {
+  "checkedAt": "2026-09-16T05:46:05.395Z",
+  "qid": "Q111622379",
+  "directors": [
+   "Arnaud Desplechin"
+  ],
+  "cast": [
+   "Marion Cotillard",
+   "Melvil Poupaud",
+   "Golshifteh Farahani",
+   "Patrick Timsit",
+   "Benjamin Siksou",
+   "Cosmina Stratan",
+   "Francis Leplay",
+   "Max Baissette de Malglaive"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/4/4f/Brother_and_Sister_%282022%29_poster.jpg",
+  "synopsis": "Frère et Sœur est un film français réalisé par Arnaud Desplechin et sorti en 2022.\nLe film est présenté en compétition officielle au festival de Cannes 2022.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Fr%C3%A8re_et_S%C5%93ur_(film)"
+ },
+ "emilia-perez": {
+  "checkedAt": "2026-09-16T05:46:05.744Z",
+  "qid": "Q123928072",
+  "directors": [
+   "Jacques Audiard"
+  ],
+  "cast": [
+   "Karla Sofía Gascón",
+   "Adriana Paz",
+   "Zoë Saldaña",
+   "Selena Gomez"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/29/Emilia_P%C3%A9rez_film_poster.png",
+  "synopsis": "Emilia Pérez est un drame musical écrit, produit et réalisé par Jacques Audiard, sorti en 2024.\nL'intrigue suit une personne chef de cartel mexicain (Karla Sofía Gascón), qui organise le simulacre de son décès et subit une chirurgie de réattribution sexuelle pour vivre la vie dont elle a toujours rêvé. L'aide d'une avocate (Zoe Saldaña) lui permet de reprendre contact de manière détournée avec son ex-épouse (Selena Gomez) et ses enfants.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Emilia_P%C3%A9rez"
+ },
+ "saint-omer": {
+  "checkedAt": "2026-09-16T05:46:07.505Z",
+  "qid": "Q113443388",
+  "directors": [
+   "Alice Diop"
+  ],
+  "cast": [
+   "Kayije Kagame",
+   "Guslagie Malanda",
+   "Valérie Dréville",
+   "Aurélia Petit",
+   "Xavier Maly",
+   "Robert Cantarella",
+   "Salimata Kamaté",
+   "Thomas de Pourquery"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b8/Saint_Omer_2022_film_poster.png",
+  "synopsis": "Saint Omer est un drame juridique et film de procès français réalisé par Alice Diop, sorti en 2022. Il s'agit de la première oeuvre de fiction de la réalisatrice, auparavant autrice de plusieurs documentaires.\nLe film est inspiré par l'affaire Fabienne Kabou, une mère mise en examen et condamnée en 2013 pour infanticide sur sa fille de 15 mois en l'abandonnant sur une plage de Berck-sur-Mer à la marée montante.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Saint_Omer_(film)"
+ },
+ "the-living-end": {
+  "checkedAt": "2026-09-16T05:46:10.493Z",
+  "qid": "Q2992322",
+  "directors": [
+   "Gregg Araki"
+  ],
+  "cast": [
+   "Mary Woronov",
+   "Craig Gilmore"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Living_End_%28poster%29.jpg",
+  "synopsis": "The Living End is a 1992 American road comedy-drama film written and directed by Gregg Araki. It stars Craig Gilmore and Mike Dytri as two HIV-positive young gay men who meet by chance and embark on a road trip after one of them kills a police officer. Described by some critics as a \"gay Thelma & Louise\", the film is an early entry in the New Queer Cinema genre.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/The_Living_End_(film)"
+ },
+ "boogie-nights": {
+  "checkedAt": "2026-09-16T05:46:10.952Z",
+  "qid": "Q291170",
+  "directors": [
+   "Paul Thomas Anderson"
+  ],
+  "cast": [
+   "Mark Wahlberg",
+   "Burt Reynolds",
+   "Julianne Moore",
+   "John C. Reilly",
+   "Heather Graham",
+   "Don Cheadle",
+   "Philip Seymour Hoffman",
+   "Luis Guzmán"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/dc/Boogie_Nights_poster.png"
+ },
+ "there-will-be-blood": {
+  "checkedAt": "2026-09-16T05:46:11.250Z",
+  "qid": "Q244315",
+  "directors": [
+   "Paul Thomas Anderson"
+  ],
+  "cast": [
+   "Daniel Day-Lewis",
+   "Paul Dano",
+   "Kevin J. O'Connor",
+   "Ciarán Hinds",
+   "Jim Meskimen",
+   "Russell Harvard",
+   "David Warshofsky",
+   "Kevin Breznahan"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/da/There_Will_Be_Blood_Poster.jpg"
+ },
+ "the-squid-and-the-whale": {
+  "checkedAt": "2026-09-16T05:46:11.483Z",
+  "qid": "Q1197427",
+  "directors": [],
+  "cast": []
+ },
+ "whiplash": {
+  "checkedAt": "2026-09-16T05:46:49.929Z"
+ },
+ "moonlight": {
+  "checkedAt": "2026-09-16T05:46:49.936Z"
+ },
+ "get-out": {
+  "checkedAt": "2026-09-16T05:46:56.314Z"
+ },
+ "marriage-story": {
+  "checkedAt": "2026-09-16T05:47:04.000Z",
+  "qid": "Q48671199",
+  "directors": [
+   "Noah Baumbach"
+  ],
+  "cast": [
+   "Q34436",
+   "Adam Driver",
+   "Laura Dern",
+   "Alan Alda",
+   "Ray Liotta",
+   "Azhy Robertson",
+   "Julie Hagerty",
+   "Merritt Wever"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/5/55/MarriageStoryPoster.png",
+  "synopsis": "Marriage Story est un film américain écrit et réalisé par Noah Baumbach, sorti en 2019.\nLe film est présenté en avant-première à la Mostra de Venise 2019, avant une sortie limitée dans quelques salles puis une sortie mondiale sur Netflix.\nIl a été salué par la critique, recevant des éloges pour le scénario et la mise en scène de Noah Baumbach, ainsi que pour les performances de Scarlett Johansson, Adam Driver et Laura Dern, qui vaut à cette dernière l'Oscar de la meilleure actrice dans un second rôle, en 2020.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Marriage_Story"
+ },
+ "nomadland": {
+  "checkedAt": "2026-09-16T05:47:04.098Z",
+  "qid": "Q61740820",
+  "directors": [
+   "Chloé Zhao"
+  ],
+  "cast": [
+   "Frances McDormand",
+   "David Strathairn",
+   "Peter Spears"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/a/a5/Nomadland_poster.jpeg",
+  "synopsis": "Nomadland est un drame américain écrit, monté et réalisé par Chloé Zhao, sorti en 2020.\nIl est basé sur le livre Nomadland de Jessica Bruder, paru en 2017.\nLe film suit Fern, une sexagénaire, qui se lance dans un voyage à travers l'Ouest américain, vivant en tant que nomade des temps modernes dans une camionnette.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nomadland"
+ },
+ "uncut-gems": {
+  "checkedAt": "2026-09-16T05:47:03.835Z",
+  "qid": "Q56312570",
+  "directors": [
+   "Benny Safdie",
+   "Joshua Safdie"
+  ],
+  "cast": [
+   "Adam Sandler",
+   "Keith Stanfield",
+   "Idina Menzel",
+   "Judd Hirsch",
+   "Eric Bogosian",
+   "Pom Klementieff",
+   "Kevin Garnett",
+   "Jonah Hill"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/a/a7/Uncut_Gems_poster.jpg",
+  "synopsis": "Uncut Gems est un thriller américain réalisé par Joshua et Ben Safdie, sorti en 2019. Il est d'abord présenté au festival du film de Telluride puis bénéficie d'une sortie en salle aux États-Unis fin 2019, avant de sortir en exclusivité sur Netflix dans le monde en 2020.\nLe récit suit Howard Ratner, un propriétaire de bijouterie au sein de Diamond District à New York, et revendeur à ses heures perdues, qui voit sa vie chamboulée lorsque sa marchandise est volée.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Uncut_Gems"
+ },
+ "licorice-pizza": {
+  "checkedAt": "2026-09-16T05:47:04.183Z",
+  "qid": "Q102036245",
+  "directors": [
+   "Paul Thomas Anderson"
+  ],
+  "cast": [
+   "Cooper Hoffman",
+   "Sean Penn",
+   "Tom Waits",
+   "Bradley Cooper",
+   "Maya Rudolph",
+   "Skyler Gisondo",
+   "Mary Elizabeth Ellis",
+   "Joseph Cross"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/3/3c/LicoricePizzaPoster.jpeg",
+  "synopsis": "Licorice Pizza ou Rêver grand au Québec est un film américain écrit et réalisé par Paul Thomas Anderson, sorti en 2021.\nLe film se déroule en 1973, dans la vallée de San Fernando à Los Angeles. Alana Kane, 25 ans, fait la connaissance de Gary Valentine, 15 ans, lors de la photo de classe de ce dernier.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Licorice_Pizza"
+ },
+ "the-florida-project": {
+  "checkedAt": "2026-09-16T05:47:04.465Z",
+  "qid": "Q29514872",
+  "directors": [
+   "Sean S. Baker"
+  ],
+  "cast": [
+   "Willem Dafoe",
+   "Caleb Landry Jones",
+   "Macon Blair",
+   "Brooklynn Prince",
+   "Bria Vinaite",
+   "Christopher Rivera"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b2/The_Florida_Project.jpg",
+  "synopsis": "The Florida Project, ou Mon royaume en Floride au Québec, est une comédie dramatique américaine co-écrite et réalisée par Sean Baker, sortie en 2017.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/The_Florida_Project"
+ },
+ "the-lighthouse": {
+  "checkedAt": "2026-09-16T05:47:04.659Z",
+  "qid": "Q55402791",
+  "directors": [
+   "Robert Eggers"
+  ],
+  "cast": [
+   "Robert Pattinson",
+   "Willem Dafoe"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/2c/The_Lighthouse.jpeg",
+  "synopsis": "The Lighthouse, ou Le Phare au Québec, est un thriller psychologique américano-canadien réalisé par Robert Eggers, sorti en 2019.\nL'écriture de ce film s'est inspirée de faits réels d'après le réalisateur Robert Eggers. En effet l'histoire s'inspire en partie des évènements survenus au phare de Smalls dans le Pembrokeshire, au pays de Galles, en 1801.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/The_Lighthouse_(film)"
+ },
+ "past-lives": {
+  "checkedAt": "2026-09-16T05:47:06.488Z",
+  "qid": "Q116025865",
+  "directors": [
+   "Celine Song"
+  ],
+  "cast": [
+   "Greta Lee",
+   "Yoo Teo",
+   "John Magaro",
+   "Choi Won-young",
+   "Jonica T. Gibbs"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/da/Past_Lives_film_poster.png",
+  "synopsis": "Past Lives – Nos vies d'avant (Past Lives) est un film sud-coréo-américain réalisé par Celine Song, sorti en 2023. Il s'agit du premier film de la réalisatrice, qui écrit également le scénario. Il met en vedette Greta Lee, Teo Yoo et John Magaro.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Past_Lives_(film)"
+ },
+ "everything-everywhere": {
+  "checkedAt": "2026-09-16T05:47:06.585Z",
+  "qid": "Q83808444",
+  "directors": [
+   "Dan Kwan",
+   "Daniel Scheinert"
+  ],
+  "cast": [
+   "Michelle Yeoh",
+   "Stephanie Hsu",
+   "James Hong",
+   "Jonathan Ke Quan",
+   "Jamie Lee Curtis",
+   "Jenny Slate",
+   "Harry Shum Jr",
+   "Andy Le"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg",
+  "synopsis": "Everything Everywhere All at Once ou Tout, partout, tout à la fois au Québec est un film américain co-écrit et co-réalisé par Daniel Kwan et Daniel Scheinert et sorti en 2022.\nComédie dramatique d'aventure et de science-fiction, le film met en vedette Michelle Yeoh, Ke Huy Quan, Stephanie Hsu, James Hong, Jamie Lee Curtis, Jenny Slate et Harry Shum Jr.\nLe film suit une femme sino-américaine usée par la vie et qui est emportée dans une aventure irréelle où elle doit sauver ce qui est important pour elle en se connectant aux vies qu'elle aurait pu avoir dans d'autres univers parallèles.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Everything_Everywhere_All_at_Once"
+ },
+ "anora": {
+  "checkedAt": "2026-09-16T05:47:06.851Z",
+  "qid": "Q123185887",
+  "directors": [
+   "Sean S. Baker"
+  ],
+  "cast": [
+   "Mikey Madison",
+   "Mark Eidelstein",
+   "Iouri Borissov",
+   "Darya Ekamasova",
+   "Alekseï Serebriakov",
+   "Ivy Wolk",
+   "Luna Sofía Miranda",
+   "Karren Karagulian"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/2b/Anora_%282024_film%29_poster.jpg",
+  "synopsis": "Anora est un film américain réalisé par Sean Baker et sorti en 2024.\nLe film se déroule entre New York et Las Vegas, où Anora, dite « Ani », une jeune strip-teaseuse de Brooklyn, voit sa vie chamboulée lorsqu'elle rencontre Ivan, le fils d'un oligarque russe et l'épouse dans la foulée. Une fois la nouvelle parvenue en Russie, leur conte de fées est menacé.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Anora_(film)"
+ },
+ "return-to-dust": {
+  "checkedAt": "2026-09-16T05:47:07.462Z",
+  "qid": "Q110655548",
+  "directors": [
+   "Li Ruijun"
+  ],
+  "cast": [
+   "Hai Qing"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/2e/Return_to_Dust_film_poster.jpg",
+  "synopsis": "Le Retour des hirondelles (隐入尘烟, Yin ru chen yan) est un film chinois écrit et réalisé par Li Ruijun et sorti en 2022.\nIl est présenté en avant-première à la Berlinale 2022.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Retour_des_hirondelles"
+ },
+ "phoenix": {
+  "checkedAt": "2026-09-16T05:47:09.056Z",
+  "qid": "Q2742209",
+  "directors": [],
+  "cast": [],
+  "synopsis": "The Phoenix Film Critics Society (PFCS) is an organization made up of professional film critics and journalists based in Arizona, United States. Co-founded by David Ramsey and Roger Tennis in 2000, its members also serve as judges of the Phoenix Film Festival and the Scottsdale International Film Festival.\nIn December of each year, the PFCS meets to vote on their Phoenix Film Critics Society Awards for films released in the same calendar year.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Phoenix_Film_Critics_Society"
+ },
+ "only-the-river-flows": {
+  "checkedAt": "2026-09-16T05:47:09.008Z",
+  "qid": "Q118520286",
+  "directors": [
+   "Wei Shujun"
+  ],
+  "cast": [
+   "Zhu Yilong",
+   "Chloe Maayan"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/8/87/OnlyTheRiverFlows.jpg",
+  "synopsis": "Only the River Flows (河边的错误, Hébiān de cuòwù) est un film chinois réalisé par Wei Shujun, sorti en 2023.\nC'est l'adaptation d'une nouvelle de Yu Hua.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Only_the_River_Flows"
+ },
+ "kaili-blues": {
+  "checkedAt": "2026-09-16T05:47:09.191Z",
+  "qid": "Q20687830",
+  "directors": [
+   "Bi Gan"
+  ],
+  "cast": [],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/f/f1/Kaili_Blues_poster.jpg",
+  "synopsis": "Kaili Blues (chinois simplifié : 路边野餐 ; pinyin : Lù biān yě Cān ; litt. « pique-nique au bord de la route ») est un film chinois réalisé par Bi Gan, sorti en 2015.\nC'est le premier long métrage de Bi Gan. Il est présenté au Festival international du film de Locarno 2015 où il remporte le Prix du meilleur réalisateur émergent dans la section Concorso Cineasti del presente.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Kaili_Blues"
+ },
+ "tar": {
+  "checkedAt": "2026-09-16T05:47:09.278Z",
+  "qid": "Q108649516",
+  "directors": [
+   "Todd Field"
+  ],
+  "cast": [
+   "Cate Blanchett",
+   "Nina Hoss",
+   "Noémie Merlant",
+   "Mark Strong",
+   "Julian Glover",
+   "Allan Corduner"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/19/T%C3%A1r_poster.jpg",
+  "synopsis": "Tár est un drame psychologique américano-allemand écrit et réalisé par Todd Field, sorti en 2022.\nLe film est présenté en compétition officielle à la Mostra de Venise 2022, où Cate Blanchett remporte la coupe Volpi de la meilleure interprétation féminine.\nLe film suit Lydia Tár, une cheffe d'orchestre de renommée internationale, en même temps qu'une femme de pouvoir.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/T%C3%A1r"
+ },
+ "long-days-journey": {
+  "checkedAt": "2026-09-16T05:47:09.664Z",
+  "qid": "Q51879925",
+  "directors": [
+   "Bi Gan"
+  ],
+  "cast": [
+   "Tang Wei",
+   "Sylvia Chang",
+   "Huang Jue",
+   "Lee Hong-chi"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d1/Long_Day%27s_Journey_into_Night_%282018_film%29.jpg",
+  "synopsis": "Un grand voyage vers la nuit (chinois : 地球最後的夜晚 ; pinyin : Dìqiú zuìhòu de yèwǎn ; litt. « La dernière nuit de la terre ») est un drame romantique franco-chinois écrit et réalisé par Bi Gan, sorti en 2018.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Un_grand_voyage_vers_la_nuit"
+ },
+ "western-2017": {
+  "checkedAt": "2026-09-16T05:47:10.581Z",
+  "qid": "Q172980",
+  "directors": [],
+  "cast": [],
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Stanley_L._Wood00.jpg/500px-Stanley_L._Wood00.jpg",
+  "synopsis": "Le western est un genre cinématographique dont l'action se déroule généralement en Amérique du Nord, plus spécifiquement aux États-Unis, lors de la conquête de l'Ouest dans les dernières décennies du XIXe siècle. Ce sous-genre du film historique apparaît dès l'invention du cinématographe en 1895 prenant presque à chaque fois pour sujet l'Ouest américain. Il connaît son apogée aux États-Unis au milieu du XXe siècle avec l'âge d'or des studios hollywoodiens, avant d'être réinventé par les cinéastes européens dans les années 1960.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Western"
+ },
+ "transit": {
+  "checkedAt": "2026-09-16T05:47:10.796Z",
+  "qid": "Q18631927",
+  "directors": [],
+  "cast": [],
+  "poster": "https://upload.wikimedia.org/wikipedia/commons/6/66/LogoTF_square_250.jpg",
+  "synopsis": "Transit Film GmbH is a German film licensing company located in Munich. The company licenses film documents held by the German Federal Archives (Bundesarchiv), as well as its own filmstock.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Transit_Film"
+ },
+ "toni-erdmann": {
+  "checkedAt": "2026-09-16T05:47:11.074Z",
+  "qid": "Q23838395",
+  "directors": [
+   "Maren Ade"
+  ],
+  "cast": [
+   "Peter Simonischek",
+   "Sandra Hüller",
+   "Michael Wittenborn",
+   "Thomas Loibl",
+   "Trystan Pütter",
+   "Lucy Russell",
+   "Vlad Ivanov",
+   "Victoria Cociaș-Șerban"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/78/Toni_Erdmann.png",
+  "synopsis": "Toni Erdmann est un film germano-autrichien réalisé par Maren Ade, sorti en 2016. \nEn sélection officielle au Festival de Cannes 2016, le film a reçu le prix de la critique internationale. Le film a reçu le grand prix 2016 de la FIPRESCI.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Toni_Erdmann"
+ },
+ "i-was-at-home-but": {
+  "checkedAt": "2026-09-16T05:47:37.399Z"
+ },
+ "roter-himmel": {
+  "checkedAt": "2026-09-16T05:47:37.424Z"
+ },
+ "barbara": {
+  "checkedAt": "2026-09-16T05:47:12.207Z",
+  "qid": "Q3070716",
+  "directors": [],
+  "cast": []
+ },
+ "undine": {
+  "checkedAt": "2026-09-16T05:47:50.338Z"
+ },
+ "in-my-room": {
+  "checkedAt": "2026-09-16T05:48:00.777Z",
+  "qid": "Q54098366",
+  "directors": [
+   "Ulrich Köhler"
+  ],
+  "cast": [
+   "Hans Löw",
+   "Elena Radonicich",
+   "Kathrin Resetarits",
+   "Felix Knopp",
+   "Michael Wittenborn",
+   "Ruth Bickelhaupt",
+   "Emma Bading"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/a/aa/In_My_Room.png",
+  "synopsis": "In My Room is a 2018 German drama film directed by Ulrich Köhler. It was screened in the Un Certain Regard section at the 2018 Cannes Film Festival.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/In_My_Room_(film)"
+ },
+ "herr-bachmann": {
+  "checkedAt": "2026-09-16T05:48:01.617Z",
+  "qid": "Q105441224",
+  "directors": [
+   "Maria Speth"
+  ],
+  "cast": [],
+  "synopsis": "Monsieur Bachmann et sa classe (Herr Bachmann und seine Klasse) est un film allemand réalisé par Maria Speth et sorti en 2021.\nLe documentaire est présenté à la Berlinale 2021 où il obtient le prix du jury.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Monsieur_Bachmann_et_sa_classe"
+ },
+ "el-clan": {
+  "checkedAt": "2026-09-16T05:48:01.784Z",
+  "qid": "Q18709329",
+  "directors": [
+   "Pablo Trapero"
+  ],
+  "cast": [
+   "Guillermo Francella",
+   "Juan Pedro Lanzani",
+   "Fabio Aste",
+   "Joaquín Berthold",
+   "Gabo Correa",
+   "Giselle Motta",
+   "Franco Masini",
+   "Jesús Berenguer"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/8/8f/The_Clan_%282015_film%29.jpg",
+  "synopsis": "El Clan est un film argentino-espagnol réalisé par Pablo Trapero, sorti en 2015. Interprété par Guillermo Francella et Peter Lanzani, il est basé sur l'histoire du clan Puccio (en) qui a sévi en Argentine au début des années 1980.\nLe film est sélectionné comme entrée argentine pour l'Oscar du meilleur film en langue étrangère lors de la 88e cérémonie des Oscars  2016.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/El_Clan"
+ },
+ "the-city-below": {
+  "checkedAt": "2026-09-16T05:48:03.486Z",
+  "qid": "Q974460",
+  "directors": [
+   "Christoph Hochhäusler"
+  ],
+  "cast": [
+   "Nicolette Krebitz",
+   "Robert Hunger-Bühler",
+   "Mark Waschke",
+   "Corinna Kirchhoff",
+   "Wolfgang Böck",
+   "Paul Faßnacht",
+   "Oliver Broumis",
+   "Robert Schupp"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d1/The_City_Below.jpg",
+  "synopsis": "Sous toi, la ville (Unter dir die Stadt) est un film réalisé par Christoph Hochhäusler en 2010. Il a été sélectionné pour la 63e édition du Festival de Cannes, dans la section Un Certain Regard.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Sous_toi%2C_la_ville"
+ },
+ "rojo": {
+  "checkedAt": "2026-09-16T05:48:03.895Z",
+  "qid": "Q55990533",
+  "directors": [
+   "Benjamín Naishtat"
+  ],
+  "cast": [
+   "Darío Grandinetti",
+   "Andrea Frigerio",
+   "Alfredo Castro",
+   "Rudy Chernicoff",
+   "Susana Pampín"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/16/Rojo_%28film%29.jpg",
+  "synopsis": "Rojo is a 2018 mystery thriller drama film, directed by Benjamín Naishtat and released in 2018. Set in the 1970s, the film stars Darío Grandinetti as Claudio Morán, a lawyer who becomes slowly enmeshed in the culture of silent bourgeois complicity around the strange unexplained enforced disappearances of political dissidents in the months leading up to the 1976 Argentine coup d'état.\nThe cast also includes Andrea Frigerio, Alfredo Castro, Diego Cremonesi, Laura Grandinetti, Susana Pampin, Rudy Chernicoff, Claudio Martinez, Mara Bestelli and Rafael Federman.",
+  "wikiUrl": "https://en.wikipedia.org/wiki/Rojo_(film)"
+ },
+ "love-letter": {
+  "checkedAt": "2026-09-16T05:48:03.879Z",
+  "qid": "Q958125",
+  "directors": [
+   "Shunji Iwai"
+  ],
+  "cast": [
+   "Miho Nakayama",
+   "Etsushi Toyokawa",
+   "Bunjaku Han",
+   "Miki Sakai",
+   "Ranran Suzuki",
+   "Takashi Kashiwabara"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/62/Love-Letter-poster-1995.jpg",
+  "synopsis": "Love Letter est un film japonais de 1995 réalisé par Shunji Iwai avec l'actrice Miho Nakayama dans le rôle principal. Le film a été tourné presque entièrement sur l'île de Hokkaidō, principalement dans la ville d'Otaru. \nLove Letter est devenu un succès au Japon et plus tard dans d’autres pays d’Asie de l’Est, notamment en Corée du Sud, où il a été l’un des premiers films japonais à être diffusé dans les cinémas depuis la Seconde Guerre mondiale.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Love_Letter_(film%2C_1995)"
+ },
+ "el-ciudadano-ilustre": {
+  "checkedAt": "2026-09-16T05:48:04.134Z",
+  "qid": "Q18674502",
+  "directors": [
+   "Gastón Duprat",
+   "Mariano Cohn"
+  ],
+  "cast": [
+   "Oscar Martinez",
+   "Andrea Frigerio",
+   "Dady Brieva",
+   "Belen Chavanne",
+   "Nora Navas",
+   "Gustavo Garzón",
+   "Manuel Vicente",
+   "Marcelo D'Andrea"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/4/40/The_Distinguished_Citizen.png",
+  "synopsis": "Citoyen d'honneur (El ciudadano ilustre) est un film dramatique argentin réalisé par Gastón Duprat et Mariano Cohn sur un scénario d'Andrés Duprat, sorti en 2016 et mettant en vedette Oscar Martinez.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Citoyen_d'honneur_(film%2C_2016)"
+ },
+ "maborosi": {
+  "checkedAt": "2026-09-16T05:48:04.175Z",
+  "qid": "Q3273809",
+  "directors": [
+   "Hirokazu Kore-eda"
+  ],
+  "cast": [
+   "Makiko Esumi",
+   "Tadanobu Asano",
+   "Akira Emoto"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b0/Maborosi.jpg",
+  "synopsis": "Maborosi (幻の光, Maboroshi no Hikari) est un film japonais réalisé par Hirokazu Kore-eda. Il est sorti au Japon en 1995. C'est le premier film du réalisateur.\nCe long-métrage de fiction est l'adaptation du roman Maboroshi no Hikari de Teru Miyamoto.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Maborosi"
+ },
+ "sleeping-sickness": {
+  "checkedAt": "2026-09-16T05:48:05.090Z",
+  "qid": "Q2363503",
+  "directors": [
+   "Ulrich Köhler"
+  ],
+  "cast": [
+   "Pierre Bokma",
+   "Hippolyte Girardot",
+   "Jean-Christophe Folly",
+   "Jenny Schily"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/d/d6/Sleeping_Sickness.jpg",
+  "synopsis": "La Maladie du sommeil (Schlafkrankheit) est un film allemand réalisé par Ulrich Köhler sorti en 2011, inédit en salles en France et diffusé sur Arte en février 2013.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/La_Maladie_du_sommeil"
+ },
+ "audition": {
+  "checkedAt": "2026-09-16T05:48:06.751Z",
+  "qid": "Q565130",
+  "directors": [
+   "Takashi Miike"
+  ],
+  "cast": [
+   "Ryō Ishibashi",
+   "Eihi Shiina",
+   "Jun Kunimura",
+   "Ren Ōsugi",
+   "Renji Ishibashi",
+   "Toshie Negishi",
+   "Tetsu Sawaki",
+   "Ken Mitsuishi"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/3/32/Audition-1999-poster.jpg",
+  "synopsis": "Audition (オーディション, Ōdishon) est un film sud-coréo-japonais réalisé par Takashi Miike, sorti en 1999. Il est adapté du roman éponyme de Ryū Murakami publié en 1997.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Audition_(film)"
+ },
+ "hanabi": {
+  "checkedAt": "2026-09-16T05:48:06.766Z",
+  "qid": "Q1125897",
+  "directors": [
+   "Takeshi Kitano"
+  ],
+  "cast": [
+   "Takeshi Kitano",
+   "Kayoko Kishimoto",
+   "Ren Ōsugi",
+   "Susumu Terajima",
+   "Ken'ichi Yajima",
+   "Yūko Daike",
+   "Tetsu Watanabe",
+   "Hakuryū"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/9/93/HanaBi_poster.jpg",
+  "synopsis": "Hana-bi (はなび) est un film japonais écrit et réalisé par Takeshi Kitano, sorti en 1997.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Hana-bi"
+ },
+ "suzaku": {
+  "checkedAt": "2026-09-16T05:48:06.358Z",
+  "qid": "Q2062287",
+  "directors": [
+   "Naomi Kawase"
+  ],
+  "cast": [
+   "Machiko Ono",
+   "Jun Kunimura"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/65/Suzaku_%28film%29.jpg",
+  "synopsis": "Suzaku (萌の朱雀, Moe no suzaku) est un film japonais réalisé par Naomi Kawase, sorti en 1997.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Suzaku_(film)"
+ },
+ "nobody-knows": {
+  "checkedAt": "2026-09-16T05:48:07.089Z",
+  "qid": "Q612298",
+  "directors": [
+   "Hirokazu Kore-eda"
+  ],
+  "cast": [
+   "Yūya Yagira",
+   "Susumu Terajima",
+   "You",
+   "Yukiko Okamoto",
+   "Sei Hiraizumi",
+   "Ken'ichi Endō",
+   "Ryō Kase"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/7e/Nobody_Knows_%282004_film%29_POSTER.jpg",
+  "synopsis": "Nobody Knows (誰も知らない, Dare mo shiranai) est un film japonais réalisé par Hirokazu Kore-eda, sorti le 13 mai 2004. Pour son interprétation dans le film, Yūya Yagira est, à 14 ans, le plus jeune comédien à avoir remporté le prix d'interprétation masculine lors du Festival de Cannes.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Nobody_Knows_(film)"
+ },
+ "love-exposure": {
+  "checkedAt": "2026-09-16T05:48:07.196Z",
+  "qid": "Q1138083",
+  "directors": [
+   "Sion Sono"
+  ],
+  "cast": [
+   "Takahiro Nishijima",
+   "Hikari Mitsushima",
+   "Sakura Andō",
+   "Atsurō Watabe",
+   "Makiko Watanabe"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Exposure.png",
+  "synopsis": "Love Exposure (愛のむきだし, Ai no mukidashi) est un film japonais, écrit et réalisé par Sion Sono, sorti en 2008. Par sa longueur (3 h 57) et les thèmes qu'il traite (perversion, folie, amour, lesbianisme, sectarisme), Love Exposure est un film singulier. Il est bien accueilli par la critique, et reçoit de nombreux prix, notamment celui du meilleur réalisateur au Prix du film Mainichi.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Love_Exposure"
+ },
+ "monster-2023": {
+  "checkedAt": "2026-09-16T05:48:09.261Z",
+  "qid": "Q1342372",
+  "directors": [],
+  "cast": [],
+  "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Kingkongposter.jpg/500px-Kingkongposter.jpg",
+  "synopsis": "Un film de monstre, un monster movie, un film de monstres, un long métrage de créature ou un film de monstres géants est un film qui se concentre sur un ou plusieurs personnages luttant pour survivre aux attaques d'un ou plusieurs monstres antagonistes, souvent anormalement grands et d'origine naturel, fantastique ou scientifique. Le film peut également relever des genres d'horreur, de comédie, de fantasy, d'action, aventures, drame ou de science-fiction. Les films de monstres sont nés d’ adaptations du folklore, des mythes et de la littérature d’horreur.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Film_de_monstre"
+ },
+ "tokyo-sonata": {
+  "checkedAt": "2026-09-16T05:48:09.354Z",
+  "qid": "Q1368350",
+  "directors": [
+   "Kiyoshi Kurosawa"
+  ],
+  "cast": [
+   "Kyōko Koizumi",
+   "Kōji Yakusho",
+   "Teruyuki Kagawa",
+   "Kanji Tsuda"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/8/8e/Tokyo_Sonata_Poster.jpg",
+  "synopsis": "Tokyo Sonata (トウキョウソナタ, Tōkyō sonata) est un film néerlando-japonais réalisé par Kiyoshi Kurosawa, sorti en 2008. \nIl a été présenté au festival de Cannes 2008 dans la section Un certain regard.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Tokyo_Sonata"
+ },
+ "drive-my-car": {
+  "checkedAt": "2026-09-16T05:48:09.326Z",
+  "qid": "Q107107865",
+  "directors": [
+   "Ryūsuke Hamaguchi"
+  ],
+  "cast": [
+   "Hidetoshi Nishijima",
+   "Masaki Okada",
+   "Reika Kirishima",
+   "Tōko Miura",
+   "Sonia Yuan",
+   "Park Yu-rim",
+   "Jin Dae-yeon",
+   "Ahn Hwi-tae"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/3/3d/Drive_My_Car_movie_poster.jpeg"
+ },
+ "cure": {
+  "checkedAt": "2026-09-16T05:48:09.614Z",
+  "qid": "Q1144476",
+  "directors": [
+   "Kiyoshi Kurosawa"
+  ],
+  "cast": [
+   "Kōji Yakusho",
+   "Anna Nakagawa",
+   "Masato Hagiwara",
+   "Ren Ōsugi",
+   "Yukijirō Hotaru",
+   "Denden",
+   "Tsuyoshi Ujiki",
+   "Yoriko Dōguchi"
+  ]
+ },
+ "perfect-days": {
+  "checkedAt": "2026-09-16T05:48:09.491Z",
+  "qid": "Q117663112",
+  "directors": [
+   "Wim Wenders"
+  ],
+  "cast": [
+   "Kōji Yakusho",
+   "Tokio Emoto",
+   "Aoi Yamada",
+   "Yumi Aso",
+   "Sayuri Ishikawa",
+   "Tomokazu Miura",
+   "Min Tanaka",
+   "Morio Agata"
+  ]
+ },
+ "shoplifters": {
+  "checkedAt": "2026-09-16T05:48:09.605Z",
+  "qid": "Q48765577",
+  "directors": [
+   "Hirokazu Kore-eda"
+  ],
+  "cast": [
+   "Lily Franky",
+   "Sakura Andō",
+   "Mayu Matsuoka",
+   "Sōsuke Ikematsu",
+   "Naoto Ogata",
+   "Yōko Moriguchi",
+   "Yūki Yamada",
+   "Kirin Kiki"
+  ]
+ },
+ "okja": {
+  "checkedAt": "2026-09-16T05:49:01.850Z"
+ },
+ "amores-perros": {
+  "checkedAt": "2026-09-16T05:49:02.081Z",
+  "qid": "Q474098",
+  "directors": [
+   "Alejandro González Iñárritu"
+  ],
+  "cast": [
+   "Gael García Bernal",
+   "Goya Toledo",
+   "Adriana Barraza",
+   "Emilio Echevarría",
+   "Álvaro Guerrero",
+   "Vanessa Bauche",
+   "Jorge Salinas",
+   "Dagoberto Gama"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/4/4b/Amores_Perros_poster.jpg",
+  "synopsis": "Amours chiennes (Amores perros) est un film mexicain réalisé par Alejandro González Iñárritu, sorti en 2000.\nC'est le premier volet de la « trilogie de la mort » d'Alejandro González Iñárritu, suivi de 21 grammes (2003) et Babel (2006).",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Amours_chiennes"
+ },
+ "y-tu-mama-tambien": {
+  "checkedAt": "2026-09-16T05:49:01.985Z",
+  "qid": "Q128848",
+  "directors": [
+   "Alfonso Cuarón"
+  ],
+  "cast": [
+   "Diego Luna",
+   "Gael García Bernal",
+   "Maribel Verdú",
+   "Emilio Echevarría",
+   "Daniel Giménez Cacho",
+   "Andrea López",
+   "Silverio Palacios",
+   "Diana Bracho"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/63/Y_tu_mam%C3%A1_tambi%C3%A9n_poster.png",
+  "synopsis": "Y tu mamá también, également intitulé ou sous-titré Et même ta mère ! ou Et… ta mère aussi ! (dont au Canada francophone), est un film mexicain réalisé par Alfonso Cuarón, sorti en 2001.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Y_tu_mam%C3%A1_tambi%C3%A9n"
+ },
+ "mickey-17": {
+  "checkedAt": "2026-09-16T05:49:02.108Z",
+  "qid": "Q112977213",
+  "directors": [
+   "Bong Joon-ho"
+  ],
+  "cast": [
+   "Robert Pattinson",
+   "Steven Yeun",
+   "Naomi Ackie",
+   "Toni Collette",
+   "Q41422",
+   "Holliday Grainger",
+   "Cameron Britton",
+   "Anamaria Vartolomei"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/2/2d/Mickey_17_film_poster.png",
+  "synopsis": "Mickey 17 est une comédie d'action et de science-fiction américano-sud-coréenne écrite et réalisée par Bong Joon-ho, sortie en 2025. Il s'agit de l'adaptation du roman Mickey7 d'Edward Ashton paru en 2022.\nLe film est sélectionné hors-compétition lors de la Berlinale 2025.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Mickey_17"
+ },
+ "the-wailing": {
+  "checkedAt": "2026-09-16T05:49:02.243Z",
+  "qid": "Q22972803",
+  "directors": [
+   "Na Hong-jin"
+  ],
+  "cast": [
+   "Kwak Do-won",
+   "Hwang Jeong-min",
+   "Jun Kunimura",
+   "Cheon U-hui",
+   "Jang So-yeon"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/e/eb/The_Wailing_%28film%29.png",
+  "synopsis": "The Strangers (hangeul : 곡성 ; RR : Gokseong) est un thriller horrifique sud-coréen écrit et réalisé par Na Hong-jin, sorti en 2016.\nTroisième long métrage de son auteur, il a été sélectionné hors compétition au Festival de Cannes 2016.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/The_Strangers_(film%2C_2016)"
+ },
+ "decision-to-leave": {
+  "checkedAt": "2026-09-16T05:49:02.828Z",
+  "qid": "Q100889636",
+  "directors": [
+   "Park Chan-wook"
+  ],
+  "cast": [
+   "Park Hae-il",
+   "Tang Wei",
+   "Lee Jung-hyun",
+   "Ko Kyung-pyo",
+   "Park Yong-woo",
+   "Jung Yi-seo",
+   "Kim Shin-young",
+   "Yoo Seung-mok"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/8/82/Decision_to_Leave_film_poster.jpg",
+  "synopsis": "Decision to Leave (hangeul : 헤어질 결심 ; hanja : 헤어질 決心 ; RR : Heeojil gyeolsim ; litt. « Décision de morceler »), ou Décision de partir au Québec, est un film sud-coréen coécrit, produit et réalisé par Park Chan-wook, sorti en 2022.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Decision_to_Leave"
+ },
+ "el-laberinto-del-fauno": {
+  "checkedAt": "2026-09-16T05:49:04.083Z",
+  "qid": "Q216006",
+  "directors": [
+   "Guillermo del Toro"
+  ],
+  "cast": [
+   "Ivana Baquero",
+   "Ariadna Gil",
+   "Doug Jones",
+   "Sergi López",
+   "Maribel Verdú",
+   "Álex Angulo",
+   "Roger Casamajor",
+   "Federico Luppi"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg",
+  "synopsis": "Le Labyrinthe de Pan (en espagnol : El laberinto del fauno) est un film de fantaisie sombre historique, aventure, drame, horreur, guerre et thriller hispanique-mexicain écrit, produit et réalisé par Guillermo Del Toro, sorti en 2006. Il est co-produit par Alfonso Cuarón, Bertha Navarro, Frida Torresblanco et Álvaro Augustín.\nLe film se déroule cinq années après la Guerre Civile Espagnole et son personnage principal, la jeune Ofelia obsédée par les livres de contes des fées, se voit désignée par un faune comme la princesse d'un monde souterrain.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Labyrinthe_de_Pan"
+ },
+ "ixcanul": {
+  "checkedAt": "2026-09-16T05:49:04.274Z",
+  "qid": "Q18702255",
+  "directors": [
+   "Jayro Bustamante"
+  ],
+  "cast": [],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/61/Ixcanul_poster.jpg",
+  "synopsis": "Ixcanul (aussi Ixcanul Volcano) est un film franco-guatémaltèque, écrit et réalisé par Jayro Bustamante, et sorti en 2015. Il introduit le spectateur dans le quotidien, puis dans le drame d'une famille de paysans ne parlant que le cakchiquel, et vivant hors du temps sur le flanc d'un volcan.\nLe film reçoit l'Ours d'argent « prix Alfred-Bauer » au 65e festival international du film de Berlin (2015).",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Ixcanul"
+ },
+ "que-horas-ela-volta": {
+  "checkedAt": "2026-09-16T05:49:04.702Z",
+  "qid": "Q18703886",
+  "directors": [
+   "Anna Muylaert"
+  ],
+  "cast": [
+   "Regina Casé",
+   "Michel Joelsas",
+   "Camila Márdila",
+   "Lourenço Mutarelli",
+   "Luís Miranda",
+   "Luci Pereira",
+   "Helena Albergaria"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/f/f3/The_Second_Mother_%282015_film%29_POSTER.jpg",
+  "synopsis": ") est un film brésilien réalisé par Anna Muylaert, sorti en 2015. Le film a été présenté au Festival du film de Sundance 2015 et à la Berlinale 2015.\nEn novembre 2015, le film est inclus dans la liste établie par l'Association brésilienne des critiques de cinéma (Abraccine) des 100 meilleurs films brésiliens de tous les temps.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Une_seconde_m%C3%A8re"
+ },
+ "roma": {
+  "checkedAt": "2026-09-16T05:49:05.732Z",
+  "qid": "Q39336",
+  "directors": [],
+  "cast": [],
+  "synopsis": "Le Festival international du film de Rome (Festival internazionale del film di Roma) est un festival de cinéma compétitif organisé à Rome depuis 2006.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Festival_international_du_film_de_Rome"
+ },
+ "una-mujer-fantastica": {
+  "checkedAt": "2026-09-16T05:49:05.856Z",
+  "qid": "Q28127580",
+  "directors": [
+   "Sebastián Lelio"
+  ],
+  "cast": [
+   "Daniela Vega",
+   "Alejandro Goic",
+   "Néstor Cantillana",
+   "Antonia Zegers",
+   "Amparo Noguera",
+   "Aline Küppenheim",
+   "Luis Gnecco",
+   "Francisco Reyes Morandé"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/4/40/A_Fantastic_Woman.png",
+  "synopsis": "Une femme fantastique (Una mujer fantástica) est un film dramatique chilien écrit et réalisé par Sebastián Lelio et sorti en 2017.\nIl est présenté en sélection officielle à la Berlinale 2017 où il remporte l'Ours d'argent du meilleur scénario et le Teddy Award du meilleur film. Il obtient également l'Oscar du meilleur film en langue étrangère.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Une_femme_fantastique"
+ },
+ "bacurau": {
+  "checkedAt": "2026-09-16T05:49:06.776Z",
+  "qid": "Q63246555",
+  "directors": [
+   "Kleber Mendonça Filho"
+  ],
+  "cast": [
+   "Udo Kier",
+   "Sonia Braga",
+   "Bárbara Colen",
+   "Silvero Pereira",
+   "Karine Teles",
+   "Antonio Saboia",
+   "Thomás Aquino",
+   "Thardelly Lima"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/9/92/Bacurau_poster.jpg",
+  "synopsis": "Bacurau est un thriller brésilien réalisé par Kleber Mendonça Filho et Juliano Dornelles (pt), sorti en 2019.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Bacurau"
+ },
+ "aquarius": {
+  "checkedAt": "2026-09-16T05:49:07.676Z",
+  "qid": "Q23833608",
+  "directors": [
+   "Kleber Mendonça Filho"
+  ],
+  "cast": [
+   "Sonia Braga",
+   "Humberto Carrão",
+   "Irandhir Santos",
+   "Maeve Jinkings"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/b/b5/Aquarius_film_poster.jpg",
+  "synopsis": "Aquarius est un film franco-brésilien écrit et réalisé par Kleber Mendonça Filho, sorti en 2016 et projeté au Festival de Cannes 2016 dans le cadre de la compétition officielle.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Aquarius_(film)"
+ },
+ "el-conde": {
+  "checkedAt": "2026-09-16T05:49:07.664Z",
+  "qid": "Q115604159",
+  "directors": [
+   "Pablo Larraín"
+  ],
+  "cast": [
+   "Jaime Vadell",
+   "Gloria Münchmeyer",
+   "Alfredo Castro",
+   "Paula Luchsinger",
+   "Stella Gonet"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/7/7d/El_Conde_%28film%29_poster.jpg",
+  "synopsis": "Le Comte (El conde) est un film chilien co-écrit et réalisé par Pablo Larraín, sorti en 2023.\nMêlant comédie noire et satirique, fantastique et thriller psychologique, ce film imagine que le dictateur Augusto Pinochet est en fait un vampire né au XVIIIe siècle et qu'il continue de vivre malgré sa mort officielle en 2006.\nEn compétition lors de la Mostra de Venise 2023, où il a remporté le Prix du scénario, Le Comte a connu une sortie limitée en salles dans certains pays, avant d'être diffusé sur Netflix dans le monde.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Le_Comte"
+ },
+ "heli": {
+  "checkedAt": "2026-09-16T05:49:08.124Z",
+  "qid": "Q12155649",
+  "directors": [
+   "Amat Escalante"
+  ],
+  "cast": [
+   "Armando Espitia",
+   "Linda Gonzalez",
+   "Juan Eduardo Palacios",
+   "Andrea Vergara"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/6/60/Heli_poster.jpg",
+  "synopsis": "Heli est un film dramatique mexicano-germano-néerlando-français coécrit et réalisé par Amat Escalante et sorti en 2013.\nIl est sélectionné pour représenter le Mexique aux Oscars du cinéma 2014 dans la catégorie meilleur film en langue étrangère.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Heli_(film)"
+ },
+ "im-still-here": {
+  "checkedAt": "2026-09-16T05:49:09.060Z",
+  "qid": "Q124262351",
+  "directors": [
+   "Walter Salles"
+  ],
+  "cast": [
+   "Fernanda Torres",
+   "Fernanda Montenegro",
+   "Selton Mello",
+   "Daniel Dantas",
+   "Valentina Herszage",
+   "Maria Manoella",
+   "Helena Albergaria",
+   "Antonio Saboia"
+  ],
+  "poster": "https://upload.wikimedia.org/wikipedia/en/0/0a/I%27m_Still_Here_%282024_film%29_poster.jpg",
+  "synopsis": "Je suis toujours là (Ainda Estou Aqui) est un film brésilien réalisé par Walter Salles, sorti en 2024.\nPrésenté en compétition à la Mostra de Venise 2024, le film remporte le prix du meilleur scénario. Aux Oscars 2025, il est le premier film brésilien à recevoir l'Oscar du meilleur film international.",
+  "wikiUrl": "https://fr.wikipedia.org/wiki/Je_suis_toujours_l%C3%A0"
  }
 }

@@ -31,24 +31,33 @@ captures dans `e2e/artifacts/`).
   ères), « n’afficher que les faits ».
 - **Liens** : discrets par défaut, allumés au survol ou à la sélection d’un courant ; clic sur un
   lien pour son explication et ses sources.
+- **Réseau des cinéastes** : la fiche d’un cinéaste liste ses liens (filiation, influence,
+  collaboration, affinité, rupture) avec une note ; quand un cinéaste est sélectionné, des arcs
+  le relient sur la carte aux cinéastes liés, quel que soit leur territoire — cliquer un arc
+  navigue vers le cinéaste relié.
 
 ## Corpus
 
-40 courants (ère du muet 6, âge classique 7, modernités 14, contemporain 12), 163 styles,
-424 cinéastes, 795 films commentés, 100 liens entre courants, environ 230 sources (livres,
-articles, manifestes, films). Chaque film est enrichi par `scripts/enrich-films.ts` avec
-l'affiche, la distribution et un synopsis issus de Wikidata et Wikipédia (`src/data/filmExtras.ts`,
-généré — relancer `npx tsx scripts/enrich-films.ts --missing` après ajout de films).
+44 courants (ère du muet 6, âge classique 7, modernités 14, contemporain 16 — dont l’École de
+Berlin, le cinéma européen, latino-américain et japonais contemporains), 186 styles,
+514 cinéastes, 934 films commentés, 110 liens entre courants, 129 liens entre cinéastes,
+environ 300 sources (livres, articles, manifestes, films). Chaque film est enrichi par
+`scripts/enrich-films.ts` avec l'affiche, la distribution et un synopsis issus de Wikidata et
+Wikipédia (`src/data/filmExtras.ts`, généré — relancer `npx tsx scripts/enrich-films.ts --missing`
+après ajout de films).
 
 Les données vivent dans `src/data/` :
 
 - `movements/{muet,classique,modernites,contemporain}.ts` — les courants (schéma dans `types.ts`) ;
 - `links.ts` — les liens entre courants, chacun avec un type, un statut épistémique, un libellé,
   une note et des sources ;
+- `filmmakerLinks.ts` — les liens entre cinéastes (filiation, influence, collaboration,
+  affinité, rupture), chacun avec un type, une note et un statut épistémique ; ils apparaissent
+  dans la fiche cinéaste (« Réseau ») et en arcs sur la carte quand un cinéaste est sélectionné ;
 - `sources.ts` — la bibliographie ; tout identifiant de source cité doit y exister ;
 - `eras.ts` — ères, bandes de régions et dimensions de l’espace carte ;
-- `validate.ts` — cohérence du corpus (identifiants, références croisées, périodes, sources),
-  exécutée par `src/data/__tests__/validate.test.ts` ;
+- `validate.ts` — cohérence du corpus (identifiants, références croisées, périodes, sources,
+  liens cinéastes), exécutée par `src/data/__tests__/validate.test.ts` ;
 - `filmExtras.ts` — données externes générées (affiches, distributions, synopsis, liens
   Wikipédia), une entrée par `Film.id`.
 

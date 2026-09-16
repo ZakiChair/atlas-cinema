@@ -6,6 +6,7 @@ import type { AtlasLayout, TerritoryLayout } from './layout';
 import { Graticule } from './Graticule';
 import { Territory } from './Territory';
 import { LinkLayer } from './LinkLayer';
+import { FilmmakerLinkLayer } from './FilmmakerLinkLayer';
 import type { MapController, Bounds, ViewportInset } from './controller';
 import type { Filters, Selection } from '../state/store';
 import { movementOf } from './bounds';
@@ -220,6 +221,11 @@ export function MapCanvas({ layout, filters, dimmedIds, selection, relatedIds, o
           selectedMovementId={selectedMovementId}
           hoveredMovementId={hoveredId}
           onLinkClick={onLinkClick}
+        />
+        <FilmmakerLinkLayer
+          layout={layout}
+          selectedId={selection?.kind === 'filmmaker' ? selection.id : null}
+          onSelect={(sel) => onSelect(sel, true)}
         />
         {layout.territories.map((t) => {
           const m = MOVEMENT_BY_ID[t.id];
