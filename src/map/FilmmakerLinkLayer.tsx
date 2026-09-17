@@ -1,16 +1,8 @@
 import { memo } from 'react';
-import { FILMMAKER_BY_ID, FILMMAKER_LINKS_BY_ID } from '../data';
-import type { FilmmakerLink } from '../data/types';
 import type { AtlasLayout } from './layout';
 import type { Selection } from '../state/store';
-
-export const FM_LINK_LABELS: Record<FilmmakerLink['kind'], string> = {
-  filiation: 'Filiation',
-  influence: 'Influence',
-  affinite: 'Affinité',
-  reaction: 'Rupture',
-  collaboration: 'Collaboration',
-};
+import { useLang } from '../i18n/lang';
+import { useData, FM_LINK_KIND_I18N } from '../i18n/localize';
 
 interface Props {
   layout: AtlasLayout;
@@ -25,16 +17,18 @@ interface Props {
  * leur territoire. Cliquer un arc navigue vers le cinéaste relié.
  */
 export const FilmmakerLinkLayer = memo(function FilmmakerLinkLayer({ layout, selectedId, onSelect }: Props) {
+  const { t } = useLang();
+  const { filmmakerById, filmmakerLinksById } = useData();
   if (!selectedId) return null;
   const origin = layout.childPos.get(selectedId);
-  const links = FILMMAKER_LINKS_BY_ID[selectedId] ?? [];
+  const links = filmmakerLinksById[selectedId] ?? [];
   if (!origin || links.length === 0) return null;
   return (
     <g className="fm-links">
       {links.map((l) => {
         const otherId = l.source === selectedId ? l.target : l.source;
         const target = layout.childPos.get(otherId);
-        const fm = FILMMAKER_BY_ID[otherId];
+        const fm = filmmakerById[otherId];
         if (!target || !fm || target.kind !== 'filmmaker') return null;
         const dx = target.x - origin.x;
         const dy = target.y - origin.y;
@@ -51,7 +45,7 @@ export const FilmmakerLinkLayer = memo(function FilmmakerLinkLayer({ layout, sel
             <path className="fm-link" d={path} />
             <circle className="fm-link-dot" cx={target.x} cy={target.y} r={4} />
             <text className="fm-link-label" x={midX} y={midY} dy="-0.5em" textAnchor="middle">
-              {FM_LINK_LABELS[l.kind]} — {fm.name}
+              {t(FM_LINK_KIND_I18N[l.kind])} — {fm.name}
             </text>
             <path
               className="link-hit"
@@ -62,7 +56,7 @@ export const FilmmakerLinkLayer = memo(function FilmmakerLinkLayer({ layout, sel
               }}
             >
               <title>
-                {FM_LINK_LABELS[l.kind]} — {fm.name} · {l.note}
+                {t(FM_LINK_KIND_I18N[l.kind])} — {fm.name} · {l.note}
               </title>
             </path>
           </g>

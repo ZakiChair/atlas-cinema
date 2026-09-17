@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Search } from 'lucide-react';
-import { search, KIND_LABELS } from '../lib/search';
+import { search, KIND_I18N, KIND_ORDER } from '../lib/search';
+import { useLang } from '../i18n/lang';
+import { useData } from '../i18n/localize';
 import type { AtlasNode, NodeKind } from '../data/types';
-import { KIND_ORDER } from '../lib/search';
 
 interface Props {
   onPick: (node: AtlasNode) => void;
@@ -10,11 +11,13 @@ interface Props {
 }
 
 export function SearchBox({ onPick, autoFocus }: Props) {
+  const { t } = useLang();
+  const { nodes } = useData();
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(false);
   const [cursor, setCursor] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
-  const results = useMemo(() => search(q), [q]);
+  const results = useMemo(() => search(q, nodes), [q, nodes]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -69,8 +72,8 @@ export function SearchBox({ onPick, autoFocus }: Props) {
               inputRef.current?.blur();
             }
           }}
-          placeholder="Rechercher un courant, un cinéaste, un film… (Ctrl+K)"
-          aria-label="Rechercher dans l'atlas"
+          placeholder={t('search.placeholder')}
+          aria-label={t('search.aria')}
           role="combobox"
           aria-expanded={open && results.length > 0}
           aria-controls="search-results"
@@ -84,7 +87,7 @@ export function SearchBox({ onPick, autoFocus }: Props) {
             if (!group.length) return null;
             return (
               <div key={kind} className="mb-2 last:mb-0">
-                <div className="text-[0.65rem] uppercase tracking-widest text-[#a39c8c] px-2 pt-1">{KIND_LABELS[kind]}</div>
+                <div className="text-[0.65rem] uppercase tracking-widest text-[#a39c8c] px-2 pt-1">{t(KIND_I18N[kind])}</div>
                 {group.map((r) => {
                   const idx = flat.indexOf(r);
                   return (

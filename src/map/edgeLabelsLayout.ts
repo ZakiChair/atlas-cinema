@@ -1,4 +1,5 @@
-import { ERAS, ERA_BANDS, REGIONS } from '../data/eras';
+import { ERA_BANDS } from '../data/eras';
+import type { Era, Region } from '../data/types';
 import type { ViewTransform } from './viewStore';
 
 const FONT = 10.5;
@@ -37,10 +38,10 @@ export function placeLabel(a: number, b: number, len: number, lastEnd: number): 
  * Libellés de régions (axe vertical). Un libellé n'est gardé que si la portion
  * visible de sa bande peut à peu près le contenir et s'il ne recouvre pas le précédent.
  */
-export function regionLabels(v: ViewTransform): EdgeLabel[] {
+export function regionLabels(v: ViewTransform, regions: Region[]): EdgeLabel[] {
   const out: EdgeLabel[] = [];
   let lastEnd = -Infinity;
-  for (const r of REGIONS) {
+  for (const r of regions) {
     const text = (r.shortName ?? r.name).toUpperCase();
     const len = text.length * CHAR_W + PAD;
     const y0 = Math.max(0, v.y + r.y0 * v.k);
@@ -54,15 +55,15 @@ export function regionLabels(v: ViewTransform): EdgeLabel[] {
 }
 
 /** Libellés d'ères (axe horizontal), centrés sur la portion visible de la bande. */
-export function eraLabels(v: ViewTransform): EdgeLabel[] {
-  const eraById = new Map(ERAS.map((e) => [e.id, e]));
+export function eraLabels(v: ViewTransform, eras: Era[], today: string): EdgeLabel[] {
+  const eraById = new Map(eras.map((e) => [e.id, e]));
   const out: EdgeLabel[] = [];
   let lastEnd = -Infinity;
   for (const band of ERA_BANDS) {
     const era = eraById.get(band.era);
     if (!era) continue;
     const name = era.name.toUpperCase();
-    const range = `${era.period.start} – ${era.period.end ?? 'aujourd’hui'}`;
+    const range = `${era.period.start} – ${era.period.end ?? today}`;
     const len = Math.max(name.length * CHAR_W * 1.15, range.length * CHAR_W * 0.9) + PAD + 4;
     const x0 = Math.max(LEFT_GUTTER, v.x + band.x0 * v.k);
     const x1 = Math.min(v.width, v.x + band.x1 * v.k);

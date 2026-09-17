@@ -1,6 +1,7 @@
 import { memo, useMemo } from 'react';
-import { LINKS } from '../data';
 import type { Link, LinkKind } from '../data/types';
+import { useLang } from '../i18n/lang';
+import { useData, LINK_KIND_I18N } from '../i18n/localize';
 import { linkGeometry, isTransversal, type LinkGeometry } from './links';
 import type { AtlasLayout } from './layout';
 import type { Filters } from '../state/store';
@@ -18,13 +19,6 @@ interface Props {
   onLinkClick: (link: Link, pos: { x: number; y: number }) => void;
 }
 
-export const LINK_LABELS: Record<LinkKind, string> = {
-  filiation: 'Filiation',
-  influence: 'Influence',
-  affinite: 'Affinité',
-  reaction: 'Rupture',
-};
-
 const ARROW_COLOR: Record<LinkKind, string> = {
   filiation: '#e8d9a8',
   influence: '#8fd3ff',
@@ -33,15 +27,17 @@ const ARROW_COLOR: Record<LinkKind, string> = {
 };
 
 export const LinkLayer = memo(function LinkLayer({ layout, filters, dimmedIds, selectedMovementId, hoveredMovementId, onLinkClick }: Props) {
+  const { t } = useLang();
+  const { links } = useData();
   const geoms = useMemo(() => {
     const out: LinkGeometry[] = [];
-    for (const l of LINKS) {
+    for (const l of links) {
       const a = layout.byId.get(l.source);
       const b = layout.byId.get(l.target);
       if (a && b) out.push(linkGeometry(l, a, b));
     }
     return out;
-  }, [layout]);
+  }, [layout, links]);
 
   const focusId = selectedMovementId ?? hoveredMovementId;
   const layerCls = `links-layer layer${selectedMovementId ? ' has-selection' : hoveredMovementId ? ' has-hover' : ''}`;
@@ -77,7 +73,7 @@ export const LinkLayer = memo(function LinkLayer({ layout, filters, dimmedIds, s
             {/* libellé au milieu de la courbe, uniquement pour les liens du courant sélectionné */}
             {isSel && (
               <text className="link-label" x={g.mid.x} y={g.mid.y} dy="-0.6em" textAnchor="middle" fill={ARROW_COLOR[l.kind]}>
-                {LINK_LABELS[l.kind]} — {l.label}
+                {t(LINK_KIND_I18N[l.kind])} — {l.label}
               </text>
             )}
             <path
@@ -89,7 +85,7 @@ export const LinkLayer = memo(function LinkLayer({ layout, filters, dimmedIds, s
               }}
             >
               <title>
-                {LINK_LABELS[l.kind]} — {l.label}
+                {t(LINK_KIND_I18N[l.kind])} — {l.label}
               </title>
             </path>
           </g>

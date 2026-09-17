@@ -1,4 +1,5 @@
 import type { Statement as StatementT } from '../data/types';
+import { useLang } from '../i18n/lang';
 
 interface Props {
   statement: StatementT;
@@ -8,6 +9,7 @@ interface Props {
 }
 
 export function Statement({ statement, sourceOrder, factsOnly }: Props) {
+  const { t } = useLang();
   if (factsOnly && statement.kind === 'interpretation') return null;
   const nums = (statement.sources ?? [])
     .map((s) => sourceOrder.indexOf(s) + 1)
@@ -16,13 +18,9 @@ export function Statement({ statement, sourceOrder, factsOnly }: Props) {
     <li className="text-sm leading-relaxed">
       <span
         className={statement.kind === 'fait' ? 'badge-fait' : 'badge-interp'}
-        title={
-          statement.kind === 'fait'
-            ? 'Fait : événement datable, documenté, ou observation vérifiable.'
-            : 'Interprétation : lecture critique signée par une tradition, discutable.'
-        }
+        title={statement.kind === 'fait' ? t('statement.factTitle') : t('statement.interpTitle')}
       >
-        {statement.kind === 'fait' ? 'Fait' : 'Interprétation'}
+        {statement.kind === 'fait' ? t('statement.fact') : t('statement.interp')}
       </span>{' '}
       {statement.text}
       {nums.length > 0 && (
@@ -33,6 +31,7 @@ export function Statement({ statement, sourceOrder, factsOnly }: Props) {
 }
 
 export function StatementList({ statements, sourceOrder, factsOnly }: { statements: StatementT[]; sourceOrder: string[]; factsOnly: boolean }) {
+  const { t } = useLang();
   const hidden = factsOnly ? statements.filter((s) => s.kind === 'interpretation').length : 0;
   return (
     <>
@@ -41,7 +40,7 @@ export function StatementList({ statements, sourceOrder, factsOnly }: { statemen
           <Statement key={i} statement={s} sourceOrder={sourceOrder} factsOnly={factsOnly} />
         ))}
       </ul>
-      {hidden > 0 && <p className="text-xs italic text-[#a39c8c] mt-1">{hidden} interprétation{hidden > 1 ? 's' : ''} masquée{hidden > 1 ? 's' : ''}</p>}
+      {hidden > 0 && <p className="text-xs italic text-[#a39c8c] mt-1">{t('statement.hidden', { n: hidden, s: hidden > 1 ? 's' : '' })}</p>}
     </>
   );
 }

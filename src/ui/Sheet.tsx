@@ -1,7 +1,9 @@
 import { useRef, useState, type ReactNode } from 'react';
+import { useLang } from '../i18n/lang';
 
 /** Bottom sheet mobile : deux positions (35 % / 90 %), glisser pour changer. */
 export function Sheet({ children, onClose }: { children: ReactNode; onClose: () => void }) {
+  const { t } = useLang();
   const [snap, setSnap] = useState<'half' | 'full'>('half');
   const [dragY, setDragY] = useState(0);
   const startY = useRef(0);
@@ -19,7 +21,7 @@ export function Sheet({ children, onClose }: { children: ReactNode; onClose: () 
         transition: dragging.current ? 'none' : 'height 250ms ease, transform 200ms ease',
       }}
       role="dialog"
-      aria-label="Panneau de détail"
+      aria-label={t('sheet.aria')}
     >
       <div
         className="py-3 flex justify-center cursor-grab touch-none shrink-0"
@@ -43,7 +45,7 @@ export function Sheet({ children, onClose }: { children: ReactNode; onClose: () 
             else onClose();
           }
         }}
-        aria-label="Poignée du panneau"
+        aria-label={t('sheet.handle')}
       >
         <div className="w-10 h-1.5 rounded-full bg-white/30" />
       </div>

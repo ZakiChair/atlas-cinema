@@ -3,11 +3,13 @@ import type { Movement, Period } from '../data/types';
 import { organicPath, type TerritoryLayout } from './layout';
 import { LITE } from './lite';
 import { levelFor, useViewTransform } from './viewStore';
+import { useLang, type Lang } from '../i18n/lang';
+import { UI } from '../i18n/ui';
 
-export function formatPeriod(p: Period | undefined): string {
+export function formatPeriod(p: Period | undefined, lang: Lang): string {
   if (!p) return '';
-  const ca = p.approx ? 'ca. ' : '';
-  const end = p.end === null ? 'aujourd’hui' : String(p.end);
+  const ca = p.approx ? UI[lang]['period.ca'] : '';
+  const end = p.end === null ? UI[lang]['period.today'] : String(p.end);
   return `${ca}${p.start} – ${end}`;
 }
 
@@ -59,6 +61,7 @@ interface Props {
 }
 
 export const Territory = memo(function Territory({ movement, layout, selected, selectedChildId, dimmed, related, onSelect, onHover }: Props) {
+  const { lang } = useLang();
   const { x, y, r } = layout;
   const palette = movement.map.palette;
 
@@ -151,7 +154,7 @@ export const Territory = memo(function Territory({ movement, layout, selected, s
           ))}
         </text>
         <text className="territory-period" x={x} y={nameTop + lines.length * lineH - fs * 0.1}>
-          {formatPeriod(movement.period)}
+          {formatPeriod(movement.period, lang)}
         </text>
       </g>
 
@@ -186,7 +189,7 @@ export const Territory = memo(function Territory({ movement, layout, selected, s
                 >
                   <title>
                     {s.name}
-                    {s.period ? ` · ${formatPeriod(s.period)}` : ''}
+                    {s.period ? ` · ${formatPeriod(s.period, lang)}` : ''}
                   </title>
                 </circle>
               </g>

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { LINKS, MOVEMENTS } from './data';
+import { MOVEMENTS } from './data';
 import type { Link } from './data/types';
 import { computeLayout } from './map/layout';
 import { MapCanvas, LEVEL_K } from './map/MapCanvas';
@@ -19,11 +19,14 @@ import { ZoomControls } from './ui/ZoomControls';
 import { LevelIndicator } from './ui/LevelIndicator';
 import { LinkPopover, type LinkPopoverData } from './ui/LinkPopover';
 import { useIsDesktop } from './ui/useIsDesktop';
+import { LangProvider } from './i18n/lang';
+import { useData } from './i18n/localize';
 
 const NODE_OK = new Set(ATLAS_NODES.map((n) => `${n.kind}:${n.id}`));
 
 function AtlasApp() {
   const { state, dispatch } = useStore();
+  const data = useData();
   const controllerRef = useRef<MapController | null>(null);
   const [controller, setController] = useState<MapController | null>(null);
   const [level, setLevel] = useState(0);
@@ -104,19 +107,19 @@ function AtlasApp() {
   }, [state.selection]);
 
   const dimmedIds = useMemo(() => computeDimmed(state.filters), [state.filters]);
-  const visibleCount = MOVEMENTS.length - dimmedIds.size;
+  const visibleCount = data.movements.length - dimmedIds.size;
 
   const relatedIds = useMemo(() => {
     const set = new Set<string>();
     if (!state.selection) return set;
     const mid = movementOf(state.selection);
     if (!mid) return set;
-    for (const l of LINKS) {
+    for (const l of data.links) {
       if (l.source === mid) set.add(l.target);
       if (l.target === mid) set.add(l.source);
     }
     return set;
-  }, [state.selection]);
+  }, [state.selection, data.links]);
 
   const onLinkClick = useCallback((link: Link, pos: { x: number; y: number }) => {
     setPopover({ link, x: pos.x, y: pos.y });
@@ -167,8 +170,10 @@ function AtlasApp() {
 
 export default function App() {
   return (
-    <StoreProvider>
-      <AtlasApp />
-    </StoreProvider>
+    <LangProvider>
+      <StoreProvider>
+        <AtlasApp />
+      </StoreProvider>
+    </LangProvider>
   );
 }

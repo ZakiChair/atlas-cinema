@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useRef, useState, type MutableRefObject } from 'react';
 import * as d3 from 'd3';
-import { MAP_SIZE, MOVEMENT_BY_ID } from '../data';
+import { MAP_SIZE } from '../data';
+import { useLang } from '../i18n/lang';
+import { useData } from '../i18n/localize';
 import type { Link } from '../data/types';
 import type { AtlasLayout, TerritoryLayout } from './layout';
 import { Graticule } from './Graticule';
@@ -31,6 +33,8 @@ interface Props {
 }
 
 export function MapCanvas({ layout, filters, dimmedIds, selection, relatedIds, onSelect, onLinkClick, controllerRef, onLevelChange, onReady }: Props) {
+  const { t } = useLang();
+  const { movementById } = useData();
   const svgRef = useRef<SVGSVGElement>(null);
   const worldRef = useRef<SVGGElement>(null);
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
@@ -194,7 +198,7 @@ export function MapCanvas({ layout, filters, dimmedIds, selection, relatedIds, o
   const worldClass = `world${selection ? ' dim-others' : ''}`;
 
   return (
-    <svg ref={svgRef} className="atlas-map" data-level="0" role="application" aria-label="Carte des courants du cinéma">
+    <svg ref={svgRef} className="atlas-map" data-level="0" role="application" aria-label={t('map.aria')}>
       <defs>
         <filter id="paper-grain" x="-5%" y="-5%" width="110%" height="110%">
           <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" result="n" />
@@ -220,7 +224,7 @@ export function MapCanvas({ layout, filters, dimmedIds, selection, relatedIds, o
           onSelect={(sel) => onSelect(sel, true)}
         />
         {layout.territories.map((t) => {
-          const m = MOVEMENT_BY_ID[t.id];
+          const m = movementById[t.id];
           if (!m) return null;
           return (
             <Territory

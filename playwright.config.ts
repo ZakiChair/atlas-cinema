@@ -6,6 +6,7 @@ export default defineConfig({
   timeout: 30000,
   use: {
     baseURL: 'http://localhost:5173',
+    locale: 'fr-FR',
     screenshot: 'only-on-failure',
   },
   projects: [

@@ -1,38 +1,41 @@
 import { X, RotateCcw } from 'lucide-react';
-import { ERAS, REGIONS, TIME_BOUNDS, MOVEMENTS } from '../data';
+import { TIME_BOUNDS, MOVEMENTS } from '../data';
 import type { LinkKind, RegionId } from '../data/types';
-import { LINK_LABELS } from '../map/LinkLayer';
 import { useStore } from '../state/store';
+import { useLang } from '../i18n/lang';
+import { useData, LINK_KIND_I18N } from '../i18n/localize';
 
 const KINDS: LinkKind[] = ['filiation', 'influence', 'affinite', 'reaction'];
 
 export function FiltersDrawer({ visibleCount }: { visibleCount: number }) {
   const { state, dispatch } = useStore();
+  const { t } = useLang();
+  const { eras, regions } = useData();
   const { filters, ui } = state;
   if (!ui.filtersOpen) return null;
 
   const [start, end] = filters.period;
 
   return (
-    <aside className="glass fixed top-20 right-4 w-80 max-h-[calc(100%-7rem)] overflow-auto panel-scroll p-4 z-40" aria-label="Filtres">
+    <aside className="glass fixed top-20 right-4 w-80 max-h-[calc(100%-7rem)] overflow-auto panel-scroll p-4 z-40" aria-label={t('filters.title')}>
       <div className="flex items-center justify-between mb-3">
-        <h2 className="font-serif text-lg">Filtres</h2>
-        <button aria-label="Fermer les filtres" className="p-1 hover:bg-white/10 rounded" onClick={() => dispatch({ type: 'toggle-ui', key: 'filtersOpen' })}>
+        <h2 className="font-serif text-lg">{t('filters.title')}</h2>
+        <button aria-label={t('filters.close')} className="p-1 hover:bg-white/10 rounded" onClick={() => dispatch({ type: 'toggle-ui', key: 'filtersOpen' })}>
           <X size={16} />
         </button>
       </div>
 
       <section className="mb-4">
-        <h3 className="text-xs uppercase tracking-widest text-[#a39c8c] mb-2">Période · {start} – {end}</h3>
+        <h3 className="text-xs uppercase tracking-widest text-[#a39c8c] mb-2">{t('filters.period', { start, end })}</h3>
         <div className="flex flex-col gap-1" data-testid="period-filter">
           <label className="text-xs text-[#a39c8c] flex justify-between">
-            Début
+            {t('filters.start')}
             <input
               type="range"
               min={TIME_BOUNDS.start}
               max={TIME_BOUNDS.end}
               value={start}
-              aria-label="Année de début"
+              aria-label={t('filters.startYear')}
               onChange={(e) => {
                 const v = Math.min(Number(e.target.value), end);
                 dispatch({ type: 'set-period', period: [v, end] });
@@ -41,13 +44,13 @@ export function FiltersDrawer({ visibleCount }: { visibleCount: number }) {
             />
           </label>
           <label className="text-xs text-[#a39c8c] flex justify-between">
-            Fin
+            {t('filters.end')}
             <input
               type="range"
               min={TIME_BOUNDS.start}
               max={TIME_BOUNDS.end}
               value={end}
-              aria-label="Année de fin"
+              aria-label={t('filters.endYear')}
               onChange={(e) => {
                 const v = Math.max(Number(e.target.value), start);
                 dispatch({ type: 'set-period', period: [start, v] });
@@ -57,7 +60,7 @@ export function FiltersDrawer({ visibleCount }: { visibleCount: number }) {
           </label>
         </div>
         <div className="flex flex-wrap gap-1.5 mt-2">
-          {ERAS.map((e) => {
+          {eras.map((e) => {
             const eraEnd = e.period.end ?? TIME_BOUNDS.end;
             const active = start === e.period.start && end === eraEnd;
             return (
@@ -74,9 +77,9 @@ export function FiltersDrawer({ visibleCount }: { visibleCount: number }) {
       </section>
 
       <section className="mb-4">
-        <h3 className="text-xs uppercase tracking-widest text-[#a39c8c] mb-2">Régions</h3>
+        <h3 className="text-xs uppercase tracking-widest text-[#a39c8c] mb-2">{t('filters.regions')}</h3>
         <div className="flex flex-wrap gap-1.5">
-          {REGIONS.map((r) => {
+          {regions.map((r) => {
             const active = filters.regions.includes(r.id);
             return (
               <button key={r.id} className={`chip ${active ? 'active' : ''}`} onClick={() => dispatch({ type: 'toggle-region', region: r.id })}>
@@ -88,11 +91,11 @@ export function FiltersDrawer({ visibleCount }: { visibleCount: number }) {
       </section>
 
       <section className="mb-4">
-        <h3 className="text-xs uppercase tracking-widest text-[#a39c8c] mb-2">Types de liens</h3>
+        <h3 className="text-xs uppercase tracking-widest text-[#a39c8c] mb-2">{t('filters.linkTypes')}</h3>
         <div className="flex flex-wrap gap-1.5">
           {KINDS.map((k) => (
             <button key={k} className={`chip ${filters.linkKinds[k] ? 'active' : ''}`} onClick={() => dispatch({ type: 'toggle-link-kind', kind: k })}>
-              {LINK_LABELS[k]}
+              {t(LINK_KIND_I18N[k])}
             </button>
           ))}
         </div>
@@ -104,8 +107,8 @@ export function FiltersDrawer({ visibleCount }: { visibleCount: number }) {
             className="accent-[#e8d9a8]"
             data-testid="transversal-only"
           />
-          Liens transversaux seulement
-          <span className="text-xs text-[#a39c8c]">(entre ères)</span>
+          {t('filters.transversal')}
+          <span className="text-xs text-[#a39c8c]">{t('filters.transversalHint')}</span>
         </label>
       </section>
 
@@ -118,14 +121,14 @@ export function FiltersDrawer({ visibleCount }: { visibleCount: number }) {
             className="accent-[#9ad1a5]"
             data-testid="facts-only"
           />
-          N’afficher que les faits
+          {t('filters.factsOnly')}
         </label>
       </section>
 
       <div className="flex items-center justify-between border-t border-white/10 pt-3">
-        <span className="text-xs text-[#a39c8c]">{visibleCount} courant{visibleCount > 1 ? 's' : ''} visible{visibleCount > 1 ? 's' : ''}</span>
+        <span className="text-xs text-[#a39c8c]">{t('filters.visible', { n: visibleCount, s: visibleCount > 1 ? 's' : '' })}</span>
         <button className="chip" onClick={() => dispatch({ type: 'reset-filters' })}>
-          <RotateCcw size={12} /> Réinitialiser
+          <RotateCcw size={12} /> {t('filters.reset')}
         </button>
       </div>
     </aside>

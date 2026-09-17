@@ -1,16 +1,19 @@
 import { useState } from 'react';
-import { FILM_EXTRAS } from '../data';
 import type { Film } from '../data/types';
+import { useLang } from '../i18n/lang';
+import { useData } from '../i18n/localize';
 
 /** Affiche d'un film : masquée si absente ou en erreur de chargement. */
 export function Poster({ film, className }: { film: Film; className?: string }) {
+  const { t } = useLang();
+  const { filmExtra } = useData();
   const [failed, setFailed] = useState(false);
-  const src = FILM_EXTRAS[film.id]?.poster;
+  const src = filmExtra(film.id)?.poster;
   if (!src || failed) return null;
   return (
     <img
       src={src}
-      alt={`Affiche de ${film.title}`}
+      alt={t('film.poster', { title: film.title })}
       loading="lazy"
       decoding="async"
       referrerPolicy="no-referrer"
@@ -22,14 +25,17 @@ export function Poster({ film, className }: { film: Film; className?: string }) 
 
 /** Ligne « avec… » de la distribution. */
 export function CastLine({ film, className }: { film: Film; className?: string }) {
-  const cast = FILM_EXTRAS[film.id]?.cast;
+  const { t } = useLang();
+  const { filmExtra } = useData();
+  const cast = filmExtra(film.id)?.cast;
   if (!cast?.length) return null;
-  return <div className={className}>avec {cast.slice(0, 5).join(', ')}{cast.length > 5 ? '…' : ''}</div>;
+  return <div className={className}>{t('panel.with', { cast: `${cast.slice(0, 5).join(', ')}${cast.length > 5 ? '…' : ''}` })}</div>;
 }
 
 /** Carte de film recommandé : affiche + titre + réalisateur + commentaire. */
 export function FilmCard({ film, onClick }: { film: Film; onClick: () => void }) {
-  const extra = FILM_EXTRAS[film.id];
+  const { filmExtra } = useData();
+  const extra = filmExtra(film.id);
   return (
     <button className="w-full text-left glass p-2.5 hover:border-white/30 transition flex gap-3" onClick={onClick}>
       {extra?.poster && (

@@ -1,6 +1,7 @@
 import type { AtlasNode, NodeKind } from '../data/types';
 import { ATLAS_NODES } from '../data/nodes';
 import { normalizeText } from './normalize';
+import type { UiKey } from '../i18n/ui';
 
 export interface SearchResult {
   node: AtlasNode;
@@ -43,11 +44,11 @@ export function search(query: string, nodes: AtlasNode[] = ATLAS_NODES): SearchR
   return KIND_ORDER.flatMap((k) => groups.get(k) ?? []);
 }
 
-export const KIND_LABELS: Record<NodeKind, string> = {
-  movement: 'Courants',
-  style: 'Styles',
-  filmmaker: 'Cinéastes',
-  film: 'Films',
+export const KIND_I18N: Record<NodeKind, UiKey> = {
+  movement: 'search.kind.movement',
+  style: 'search.kind.style',
+  filmmaker: 'search.kind.filmmaker',
+  film: 'search.kind.film',
 };
 
 export { KIND_ORDER, PER_GROUP };

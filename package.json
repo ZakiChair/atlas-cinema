@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "lint": "oxlint",
     "test": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "i18n": "tsx scripts/i18n-generate.ts"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",

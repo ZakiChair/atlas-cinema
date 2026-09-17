@@ -137,3 +137,13 @@ test('intro : affichage, fermeture, persistance', async ({ page, context }) => {
   await page.reload();
   await expect(page.getByRole('dialog', { name: 'Introduction' })).toHaveCount(0);
 });
+
+test('langue : ?lang=en bascule l’UI, le sélecteur revient en FR', async ({ page }) => {
+  await page.goto('/?lang=en');
+  await dismissIntro(page);
+  await expect(page.getByRole('button', { name: 'Filters' }).first()).toBeVisible();
+  await expect(page).toHaveURL(/lang=en/);
+  await page.getByRole('group', { name: 'Langue / Language' }).first().getByRole('button', { name: 'fr', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Filtres' }).first()).toBeVisible();
+  await expect(page).toHaveURL(/lang=fr/);
+});
